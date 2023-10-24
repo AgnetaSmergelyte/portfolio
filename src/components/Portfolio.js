@@ -166,6 +166,78 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className="project-entry p-1">
+                <h2>Membership Management App</h2>
+                <ul className="p-1">
+                    <li>Create and manage membership packages</li>
+                    <li>User management</li>
+                    <li>Assign memberships to users</li>
+                </ul>
+                <div>
+                    <div><b>Front-End code: </b>
+                        <a href="https://github.com/AgnetaSmergelyte/memberships-front">https://github.com/AgnetaSmergelyte/memberships-front</a>
+                    </div>
+                    <div className="mb-1"><b>Back-End code: </b>
+                        <a href="https://github.com/AgnetaSmergelyte/memberships-back">https://github.com/AgnetaSmergelyte/memberships-back</a>
+                    </div>
+                </div>
+                <div className="d-flex f-wrap gap-1 j-center">
+                    <div className="tech-icon">
+                        <img src={reactLogo} alt="React"/>
+                        <div className="name">
+                            <div>React</div>
+                        </div>
+                    </div>
+                    <div className="tech-icon">
+                        <img src={reactRouterLogo} alt="React-Router"/>
+                        <div className="name">
+                            <div>React Router</div>
+                        </div>
+                    </div>
+                    <div className="tech-icon">
+                        <img src={reduxLogo} alt="Redux"/>
+                        <div className="name">
+                            <div>Redux</div>
+                        </div>
+                    </div>
+                    <div className="tech-icon">
+                        <img src={nodeLogo} alt="Node.js"/>
+                        <div className="name">
+                            <div>Node.js</div>
+                        </div>
+                    </div>
+                    <div className="tech-icon">
+                        <img src={mongoDbLogo} alt="MongoDB"/>
+                        <div className="name">
+                            <div>MongoDB</div>
+                        </div>
+                    </div>
+                    <div className="tech-icon">
+                        <img src={jsLogo} alt="Javascript"/>
+                        <div className="name">
+                            <div>Javascript</div>
+                        </div>
+                    </div>
+                    <div className="tech-icon">
+                        <img src={htmlLogo} alt="HTML5"/>
+                        <div className="name">
+                            <div>HTML5</div>
+                        </div>
+                    </div>
+                    <div className="tech-icon">
+                        <img src={cssLogo} alt="CSS3"/>
+                        <div className="name">
+                            <div>CSS3</div>
+                        </div>
+                    </div>
+                    <div className="tech-icon">
+                        <img src={sassLogo} alt="SASS"/>
+                        <div className="name">
+                            <div>SASS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="project-entry p-1">
                 <h2>25 + 5 Clock</h2>
                 <ul className="p-1">
                     <li>Clock for increasing productivity!</li>

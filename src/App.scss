@@ -132,7 +132,7 @@ input, textarea {
   transition: 0.3s;
 
   &:hover {
-    background-color: $color-bright-second;
+    background-color: $color-bright-main;
   }
 }
 
@@ -185,7 +185,7 @@ input, textarea {
 .project-entry {
   background-color: $color-light;
   border-radius: 5px;
-  color: $color-darkest;
+  color: $color-bright-second;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -193,6 +193,12 @@ input, textarea {
 
   h2 {
     text-align: center;
+    color: $color-bright-main;
+    font-size: 1.8rem;
+  }
+
+  b, a {
+    color: $color-bright-main;
   }
 }
 

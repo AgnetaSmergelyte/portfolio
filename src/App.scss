@@ -55,12 +55,24 @@ $color-bright-second: #734046;
   gap: 2rem;
 }
 
+.mb-05 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-1 {
   margin-bottom: 1rem;
 }
 
 .text-center {
   text-align: center;
+}
+
+.text-green {
+  color: #80b233;
+}
+
+.text-red {
+  color: #c56312;
 }
 
 body {
@@ -133,7 +145,7 @@ input, textarea {
 }
 
 .contact-form {
-  width: 400px;
+  width: 450px;
   max-width: 95vw;
 }
 
@@ -171,7 +183,7 @@ input, textarea {
 }
 
 .project-entry {
-  background-color: $color-medium;
+  background-color: $color-light;
   border-radius: 5px;
   color: $color-darkest;
   display: flex;
@@ -182,6 +194,10 @@ input, textarea {
   h2 {
     text-align: center;
   }
+}
+
+.portfolio {
+  background-color: $color-medium;
 }
 
 @keyframes spin-border {
@@ -196,7 +212,7 @@ input, textarea {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 864px) {
   .portfolio {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

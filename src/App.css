@@ -48,12 +48,24 @@
   gap: 2rem;
 }
 
+.mb-05 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-1 {
   margin-bottom: 1rem;
 }
 
 .text-center {
   text-align: center;
+}
+
+.text-green {
+  color: #80b233;
+}
+
+.text-red {
+  color: #c56312;
 }
 
 body {
@@ -119,7 +131,7 @@ input, textarea {
 }
 
 .contact-form {
-  width: 400px;
+  width: 450px;
   max-width: 95vw;
 }
 
@@ -153,7 +165,7 @@ input, textarea {
 }
 
 .project-entry {
-  background-color: #A78295;
+  background-color: #EFE1D1;
   border-radius: 5px;
   color: #331D2C;
   display: flex;
@@ -163,6 +175,10 @@ input, textarea {
 }
 .project-entry h2 {
   text-align: center;
+}
+
+.portfolio {
+  background-color: #A78295;
 }
 
 @keyframes spin-border {
@@ -175,7 +191,7 @@ input, textarea {
     transform: rotate(-360deg);
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 864px) {
   .portfolio {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

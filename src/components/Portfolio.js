@@ -18,8 +18,8 @@ const Portfolio = () => {
                 <ul className="p-1">
                     <li>Registration / Login (validations, autologin)</li>
                     <li>User profile (default photo, photo and password edits)</li>
-                    <li>All Users List (find other users in database and send messages</li>
-                    <li>Live Chat (chat with other users using socket.io)</li>
+                    <li>All Users List (find other users in database and send messages)</li>
+                    <li>Live Chat (chat with other users using Socket.IO)</li>
                     <li>Posts (all users can create posts, see other posts appearing live, like, comment, sort by
                         time/likes/comments, write instant messages to posts authors)
                     </li>
@@ -33,7 +33,7 @@ const Portfolio = () => {
                         <a href="https://github.com/AgnetaSmergelyte/final-assignment-back">https://github.com/AgnetaSmergelyte/final-assignment-back</a>
                     </div>
                 </div>
-                <div className="d-flex f-wrap gap-1">
+                <div className="d-flex f-wrap gap-1 j-center">
                     <div className="tech-icon">
                         <img src={reactLogo} alt="React"/>
                         <div className="name">
@@ -108,7 +108,7 @@ const Portfolio = () => {
                         <a href="https://github.com/AgnetaSmergelyte/fight-arena-back">https://github.com/AgnetaSmergelyte/fight-arena-back</a>
                     </div>
                 </div>
-                <div className="d-flex f-wrap gap-1">
+                <div className="d-flex f-wrap gap-1 j-center">
                     <div className="tech-icon">
                         <img src={reactLogo} alt="React"/>
                         <div className="name">
@@ -181,7 +181,7 @@ const Portfolio = () => {
                         <a href="https://github.com/AgnetaSmergelyte/25plus5clock">https://github.com/AgnetaSmergelyte/25plus5clock</a>
                     </div>
                 </div>
-                <div className="d-flex f-wrap gap-1">
+                <div className="d-flex f-wrap gap-1 j-center">
                     <div className="tech-icon">
                         <img src={reactLogo} alt="React"/>
                         <div className="name">
@@ -234,7 +234,7 @@ const Portfolio = () => {
                         <a href="https://github.com/AgnetaSmergelyte/calculator">https://github.com/AgnetaSmergelyte/calculator</a>
                     </div>
                 </div>
-                <div className="d-flex f-wrap gap-1">
+                <div className="d-flex f-wrap gap-1 j-center">
                     <div className="tech-icon">
                         <img src={reactLogo} alt="React"/>
                         <div className="name">
@@ -270,7 +270,7 @@ const Portfolio = () => {
             <div className="project-entry p-1">
                 <h2>Drum Machine</h2>
                 <ul className="p-1">
-                    <li>Play music with keyboard or pressing button with mouse</li>
+                    <li>Play music with keyboard or pressing buttons with mouse</li>
                     <li>Single Page Application with React</li>
                 </ul>
                 <div>
@@ -281,7 +281,7 @@ const Portfolio = () => {
                         <a href="https://github.com/AgnetaSmergelyte/drum-machine">https://github.com/AgnetaSmergelyte/drum-machine</a>
                     </div>
                 </div>
-                <div className="d-flex f-wrap gap-1">
+                <div className="d-flex f-wrap gap-1 j-center">
                     <div className="tech-icon">
                         <img src={reactLogo} alt="React"/>
                         <div className="name">
@@ -329,7 +329,7 @@ const Portfolio = () => {
                         <a href="https://github.com/AgnetaSmergelyte/random-quote-machine">https://github.com/AgnetaSmergelyte/random-quote-machine</a>
                     </div>
                 </div>
-                <div className="d-flex f-wrap gap-1">
+                <div className="d-flex f-wrap gap-1 j-center">
                     <div className="tech-icon">
                         <img src={reactLogo} alt="React"/>
                         <div className="name">
@@ -378,7 +378,7 @@ const Portfolio = () => {
                         <a href="https://github.com/AgnetaSmergelyte/markdown-previewer">https://github.com/AgnetaSmergelyte/markdown-previewer</a>
                     </div>
                 </div>
-                <div className="d-flex f-wrap gap-1">
+                <div className="d-flex f-wrap gap-1 j-center">
                     <div className="tech-icon">
                         <img src={reactLogo} alt="React"/>
                         <div className="name">
@@ -426,7 +426,7 @@ const Portfolio = () => {
                         <a href="https://github.com/AgnetaSmergelyte/dellamorte">https://github.com/AgnetaSmergelyte/dellamorte</a>
                     </div>
                 </div>
-                <div className="d-flex f-wrap gap-1">
+                <div className="d-flex f-wrap gap-1 j-center">
                     <div className="tech-icon">
                         <img src={viteLogo} alt="Vite"/>
                         <div className="name">

@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <About />
+        <h1 className="section-title">Portfolio</h1>
       <Portfolio />
     </div>
   );

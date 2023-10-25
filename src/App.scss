@@ -202,8 +202,31 @@ input, textarea {
   }
 }
 
+.project-about {
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+
+  & > img {
+    margin-top: 1rem;
+    width: 100%;
+    border: $color-medium solid 1px;
+    border-radius: 3px;
+  }
+}
+
 .portfolio {
   background-color: $color-medium;
+  padding-top: 2rem;
+}
+
+.section-title {
+  margin-top: 2rem;
+  background-color: $color-bright-second;
+  padding: 1rem;
+  text-align: center;
+  font-size: 2.8rem;
 }
 
 @keyframes spin-border {
@@ -218,9 +241,24 @@ input, textarea {
   }
 }
 
+@media (min-width: 600px) {
+  .project-about {
+    grid-template-columns: 200px 1fr;
+  }
+}
+
 @media (min-width: 864px) {
+  .project-about {
+    grid-template-columns: 300px 1fr;
+  }
+}
+
+@media (min-width: 1450px) {
   .portfolio {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .project-about {
+    grid-template-columns: 200px 1fr;
   }
 }

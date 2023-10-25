@@ -11,6 +11,12 @@ $color-bright-second: #734046;
   -moz-box-shadow: 0px 0px 10px 3px rgba(160, 83, 68, 0.75);
 }
 
+@mixin box-shadow-light {
+  box-shadow: 0px 0px 5px 1px rgba(167, 130, 149, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(167, 130, 149, 0.75);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(167, 130, 149, 0.75);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -197,17 +203,27 @@ input, textarea {
 }
 
 .project-entry {
-  background-color: $color-light;
+  background-color: $color-darkest;
   border-radius: 5px;
-  color: $color-darkest;
+  color: $color-light;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   line-height: 1.5rem;
+  @include box-shadow-light;
 
   h2 {
     text-align: center;
     font-size: 1.8rem;
+  }
+
+  a {
+    color: $color-medium;
+    transition: 0.3s;
+
+    &:hover {
+      color: $color-bright-main;
+    }
   }
 }
 
@@ -220,7 +236,7 @@ input, textarea {
   & > img {
     margin-top: 1rem;
     width: 100%;
-    border: $color-medium solid 1px;
+    border: $color-dark solid 1px;
     border-radius: 3px;
   }
 }

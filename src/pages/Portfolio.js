@@ -1,5 +1,5 @@
 import React from 'react';
-import Technologies from "./Technologies";
+import Technologies from "../components/Technologies";
 import socialScreen from "../images/sceenshots/social.PNG";
 import arenaScreen from "../images/sceenshots/arena.png";
 import membershipsScreen from "../images/sceenshots/memberships.png";

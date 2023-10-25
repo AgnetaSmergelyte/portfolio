@@ -20,6 +20,10 @@
   justify-content: center;
 }
 
+.j-end {
+  justify-content: flex-end;
+}
+
 .a-center {
   align-items: center;
 }
@@ -54,6 +58,10 @@
 
 .mb-1 {
   margin-bottom: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
 }
 
 .text-center {
@@ -167,7 +175,7 @@ input, textarea {
 .project-entry {
   background-color: #EFE1D1;
   border-radius: 5px;
-  color: #734046;
+  color: #331D2C;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -175,11 +183,7 @@ input, textarea {
 }
 .project-entry h2 {
   text-align: center;
-  color: #A05344;
   font-size: 1.8rem;
-}
-.project-entry b, .project-entry a {
-  color: #A05344;
 }
 
 .project-about {
@@ -195,17 +199,75 @@ input, textarea {
   border-radius: 3px;
 }
 
-.portfolio {
-  background-color: #A78295;
-  padding-top: 2rem;
-}
-
 .section-title {
   margin-top: 2rem;
   background-color: #734046;
   padding: 1rem;
   text-align: center;
   font-size: 2.8rem;
+}
+
+.toolbar {
+  width: 100%;
+  background-color: #331D2C;
+  display: flex;
+  color: #EFE1D1;
+  flex-direction: column;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px 3px rgba(160, 83, 68, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(160, 83, 68, 0.75);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(160, 83, 68, 0.75);
+}
+
+.menu-item {
+  color: #EFE1D1;
+  text-decoration: none;
+  border-bottom: #3F2E3E solid 2px;
+  transition: 0.3s;
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+.menu-item:hover {
+  color: #A05344;
+  border-bottom: #A05344 solid 2px;
+}
+
+.active {
+  color: #A05344;
+}
+
+.menu-closed {
+  display: none;
+}
+
+.menu-opened {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text {
+  max-width: 600px;
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.about-text h1 {
+  margin: 2rem 0;
+}
+
+.big-icon {
+  font-size: 3rem;
+}
+
+.social-link {
+  text-decoration: none;
+  gap: 0.5rem;
+}
+.social-link svg {
+  font-size: 3.5rem;
+}
+.social-link b {
+  font-size: 1rem;
 }
 
 @keyframes spin-border {
@@ -219,10 +281,53 @@ input, textarea {
   }
 }
 @media (min-width: 600px) {
+  .btn-toggle {
+    display: none;
+  }
   .project-about {
     grid-template-columns: 200px 1fr;
   }
+  .menu-closed {
+    display: flex;
+  }
+  .menu-opened {
+    flex-direction: row;
+  }
+  .toolbar {
+    background-color: #331D2C;
+    padding: 10px 0 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    border-bottom: #331D2C solid 3px;
+  }
+  .menu-item:hover {
+    border-bottom: #734046 solid 3px;
+  }
+  .menu {
+    width: 100%;
+    display: flex;
+  }
 }
+.btn-toggle > button {
+  padding: 1rem;
+  background-color: #331D2C;
+  font-size: 2rem;
+  color: #EFE1D1;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+.btn-toggle > button:hover {
+  opacity: 1;
+}
+
 @media (min-width: 864px) {
   .project-about {
     grid-template-columns: 300px 1fr;

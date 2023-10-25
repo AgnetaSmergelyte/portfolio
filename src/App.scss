@@ -5,6 +5,12 @@ $color-light: #EFE1D1;
 $color-bright-main: #A05344;
 $color-bright-second: #734046;
 
+@mixin box-shadow-bright {
+  box-shadow: 0px 0px 10px 3px rgba(160, 83, 68, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 3px rgba(160, 83, 68, 0.75);
+  -moz-box-shadow: 0px 0px 10px 3px rgba(160, 83, 68, 0.75);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,6 +31,10 @@ $color-bright-second: #734046;
 
 .j-center {
   justify-content: center;
+}
+
+.j-end {
+  justify-content: flex-end;
 }
 
 .a-center {
@@ -61,6 +71,10 @@ $color-bright-second: #734046;
 
 .mb-1 {
   margin-bottom: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
 }
 
 .text-center {
@@ -185,7 +199,7 @@ input, textarea {
 .project-entry {
   background-color: $color-light;
   border-radius: 5px;
-  color: $color-bright-second;
+  color: $color-darkest;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -193,12 +207,7 @@ input, textarea {
 
   h2 {
     text-align: center;
-    color: $color-bright-main;
     font-size: 1.8rem;
-  }
-
-  b, a {
-    color: $color-bright-main;
   }
 }
 
@@ -216,17 +225,76 @@ input, textarea {
   }
 }
 
-.portfolio {
-  background-color: $color-medium;
-  padding-top: 2rem;
-}
-
 .section-title {
   margin-top: 2rem;
   background-color: $color-bright-second;
   padding: 1rem;
   text-align: center;
   font-size: 2.8rem;
+}
+
+.toolbar {
+  width: 100%;
+  background-color: $color-darkest;
+  display: flex;
+  color: $color-light;
+  flex-direction: column;
+  box-sizing: border-box;
+  @include box-shadow-bright;
+}
+
+.menu-item {
+  color: $color-light;
+  text-decoration: none;
+  border-bottom: $color-dark solid 2px;
+  transition: 0.3s;
+  font-size: 1.1rem;
+  padding: 1rem;
+
+  &:hover {
+    color: $color-bright-main;
+    border-bottom: $color-bright-main solid 2px;
+  }
+}
+
+.active {
+  color: $color-bright-main;
+}
+
+.menu-closed {
+  display: none;
+}
+
+.menu-opened {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text {
+  max-width: 600px;
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 1.5rem;
+
+  h1 {
+    margin: 2rem 0;
+  }
+}
+
+.big-icon {
+  font-size: 3rem;
+}
+
+.social-link {
+  text-decoration: none;
+  gap: 0.5rem;
+
+  svg {
+    font-size: 3.5rem;
+  }
+  b {
+    font-size: 1rem;
+  }
 }
 
 @keyframes spin-border {
@@ -242,8 +310,53 @@ input, textarea {
 }
 
 @media (min-width: 600px) {
+  .btn-toggle {
+    display: none;
+  }
   .project-about {
     grid-template-columns: 200px 1fr;
+  }
+  .menu-closed {
+    display: flex;
+  }
+  .menu-opened {
+    flex-direction: row;
+  }
+  .toolbar {
+    background-color: $color-darkest;
+    padding: 10px 0 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    border-bottom: $color-darkest solid 3px;
+
+    &:hover {
+      border-bottom: $color-bright-second solid 3px;
+    }
+  }
+  .menu {
+    width: 100%;
+    display: flex;
+  }
+}
+
+.btn-toggle > button {
+  padding: 1rem;
+  background-color: $color-darkest;
+  font-size: 2rem;
+  color: $color-light;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.7;
+
+  &:hover {
+    opacity: 1;
   }
 }
 

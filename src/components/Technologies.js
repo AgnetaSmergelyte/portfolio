@@ -8,6 +8,7 @@ import htmlLogo from '../images/technologies/HTML5.svg.png';
 import cssLogo from '../images/technologies/CSS3.svg.png';
 import sassLogo from '../images/technologies/sass.svg';
 import jsLogo from '../images/technologies/JS.svg';
+import tsLogo from '../images/technologies/ts.png';
 import viteLogo from '../images/technologies/vitejs.svg';
 import socketLogo from '../images/technologies/socket-io.png';
 
@@ -22,7 +23,8 @@ const technologies = {
     html: {name: "HTML5", logo: htmlLogo},
     css: {name: "CSS3", logo: cssLogo},
     sass: {name: "SASS", logo: sassLogo},
-    vite: {name: "Vite", logo: viteLogo}
+    vite: {name: "Vite", logo: viteLogo},
+    ts: {name: "Typescript", logo: tsLogo}
 }
 
 const Technologies = ({techArray}) => {

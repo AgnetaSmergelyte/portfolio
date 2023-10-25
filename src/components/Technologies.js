@@ -11,6 +11,8 @@ import jsLogo from '../images/technologies/JS.svg';
 import tsLogo from '../images/technologies/ts.png';
 import viteLogo from '../images/technologies/vitejs.svg';
 import socketLogo from '../images/technologies/socket-io.png';
+import bootstrapLogo from '../images/technologies/bootstrap.svg';
+import expressJSLogo from '../images/technologies/express-js.png';
 
 const technologies = {
     react: {name: "React", logo: reactLogo},
@@ -24,7 +26,9 @@ const technologies = {
     css: {name: "CSS3", logo: cssLogo},
     sass: {name: "SASS", logo: sassLogo},
     vite: {name: "Vite", logo: viteLogo},
-    ts: {name: "Typescript", logo: tsLogo}
+    ts: {name: "Typescript", logo: tsLogo},
+    bootstrap: {name: "Bootstrap", logo: bootstrapLogo},
+    express: {name: "Express.js", logo: expressJSLogo},
 }
 
 const Technologies = ({techArray}) => {

@@ -21,7 +21,7 @@ const Home = () => {
                     <a href="https://www.linkedin.com/in/agnetasmergelyte"><FontAwesomeIcon icon={faLinkedin} /></a>
                 </div>
             </div>
-            {/*<button className="btn-main" onClick={() => nav("/contact")}>Contact Me</button>*/}
+            <button className="btn-main" onClick={() => nav("/contact")}>Contact Me</button>
         </div>
     );
 };

@@ -22,7 +22,7 @@ const Portfolio = () => {
                             <li>Registration / Login (validations, autologin)</li>
                             <li>User profile (default photo, photo and password edits)</li>
                             <li>All Users List (find other users in database and send messages)</li>
-                            <li>Live Chat (chat with other users using Socket.IO)</li>
+                            <li>Live Chat</li>
                             <li>Posts (all users can create posts, see other posts appearing live, like, comment, sort
                                 by
                                 time/likes/comments, write instant messages to posts authors)
@@ -39,7 +39,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <Technologies
-                    techArray={["react", "reactRouter", "redux", "node", "socket", "mongoDb", "js", "html", "css", "sass"]}/>
+                    techArray={["react", "reactRouter", "redux", "node", "express", "socket", "mongoDb", "js", "html", "css", "sass"]}/>
             </div>
             <div className="project-entry p-1">
                 <h2>Fight Arena Game</h2>
@@ -64,7 +64,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <Technologies
-                    techArray={["react", "reactRouter", "redux", "node", "socket", "mongoDb", "js", "html", "css", "sass"]}/>
+                    techArray={["react", "reactRouter", "redux", "node", "express", "socket", "mongoDb", "js", "html", "css", "sass"]}/>
             </div>
             <div className="project-entry p-1">
                 <h2>Membership Management App</h2>
@@ -87,7 +87,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <Technologies
-                    techArray={["react", "reactRouter", "redux", "node", "mongoDb", "js", "html", "css", "sass"]}/>
+                    techArray={["react", "reactRouter", "redux", "node", "express", "mongoDb", "js", "html", "css", "sass"]}/>
             </div>
             <div className="project-entry p-1">
                 <h2>Random Quote Machine</h2>
@@ -95,7 +95,7 @@ const Portfolio = () => {
                     <img src={quotesScreen} alt=""/>
                     <div>
                         <ul className="p-1">
-                            <li>Get random quotes from API with single button press</li>
+                            <li>Get random quotes with a single press of the button</li>
                             <li>Instant quote sharing on twitter</li>
                             <li>Single Page Application with React</li>
                         </ul>

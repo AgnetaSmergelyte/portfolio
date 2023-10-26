@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import profilePic from '../images/profile-pic.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";

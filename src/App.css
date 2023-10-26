@@ -83,8 +83,11 @@ body {
 
 input, textarea {
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 1rem;
   font-family: sans-serif;
+  border: none;
+  outline: none;
+  font-size: 1rem;
 }
 
 .circle-img {
@@ -139,8 +142,16 @@ input, textarea {
 }
 
 .contact-form {
-  width: 450px;
+  width: 500px;
   max-width: 95vw;
+  font-size: 1.1rem;
+}
+.contact-form h1, .contact-form h2 {
+  margin: 1rem 0;
+  font-weight: normal;
+}
+.contact-form button {
+  border-radius: 5px;
 }
 
 .tech-icon {

@@ -31,7 +31,7 @@ const Toolbar = () => {
                 <NavLink className="menu-item" to="/">Home</NavLink>
                 <NavLink className="menu-item" to="/portfolio">My Projects</NavLink>
                 <NavLink className="menu-item" to="/about">About Me</NavLink>
-                <NavLink className="menu-item" to="/contact">Contact Me</NavLink>
+                <NavLink className="menu-item" to="/contact">Contact</NavLink>
             </div>
         </div>
     );

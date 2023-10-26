@@ -199,28 +199,28 @@ const Portfolio = () => {
                 </div>
                 <Technologies techArray={["react", "redux", "js", "html", "css", "sass"]}/>
             </div>
-            <div className="project-entry p-1">
-                <h2>Artist Website</h2>
-                <div className="project-about">
-                    <img src={artistScreen} alt=""/>
-                    <div>
-                        <ul className="p-1">
-                            <li>Personal website for artist</li>
-                            <li>Poetry page</li>
-                            <li>Photo gallery</li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <div><b>Link: </b>
-                        <a href="https://dellamorte.vercel.app/">https://dellamorte.vercel.app/</a>
-                    </div>
-                    <div className="mb-1"><b>See my code: </b>
-                        <a href="https://github.com/AgnetaSmergelyte/dellamorte">https://github.com/AgnetaSmergelyte/dellamorte</a>
-                    </div>
-                </div>
-                <Technologies techArray={["vite", "react", "reactRouter", "js", "html", "css", "sass"]}/>
-            </div>
+            {/*<div className="project-entry p-1">*/}
+            {/*    <h2>Artist Website</h2>*/}
+            {/*    <div className="project-about">*/}
+            {/*        <img src={artistScreen} alt=""/>*/}
+            {/*        <div>*/}
+            {/*            <ul className="p-1">*/}
+            {/*                <li>Personal website for artist</li>*/}
+            {/*                <li>Poetry page</li>*/}
+            {/*                <li>Photo gallery</li>*/}
+            {/*            </ul>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*    <div>*/}
+            {/*        <div><b>Link: </b>*/}
+            {/*            <a href="https://dellamorte.vercel.app/">https://dellamorte.vercel.app/</a>*/}
+            {/*        </div>*/}
+            {/*        <div className="mb-1"><b>See my code: </b>*/}
+            {/*            <a href="https://github.com/AgnetaSmergelyte/dellamorte">https://github.com/AgnetaSmergelyte/dellamorte</a>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*    <Technologies techArray={["vite", "react", "reactRouter", "js", "html", "css", "sass"]}/>*/}
+            {/*</div>*/}
         </div>
     );
 };

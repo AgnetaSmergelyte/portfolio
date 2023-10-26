@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import profilePic from '../images/profile-pic.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import Contact from "./Contact";
 import {useNavigate} from "react-router-dom";
 
 const Home = () => {

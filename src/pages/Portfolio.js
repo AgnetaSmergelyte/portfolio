@@ -8,7 +8,6 @@ import calculatorScreen from "../images/sceenshots/calculator.PNG";
 import drumsScreen from "../images/sceenshots/drums.PNG";
 import quotesScreen from "../images/sceenshots/quote.PNG";
 import markdownScreen from "../images/sceenshots/markdown.PNG";
-import artistScreen from "../images/sceenshots/artist.PNG";
 
 const Portfolio = () => {
     return (
@@ -90,26 +89,27 @@ const Portfolio = () => {
                     techArray={["react", "reactRouter", "redux", "node", "express", "mongoDb", "js", "html", "css", "sass"]}/>
             </div>
             <div className="project-entry p-1">
-                <h2>Random Quote Machine</h2>
+                <h2>25 + 5 Clock</h2>
                 <div className="project-about">
-                    <img src={quotesScreen} alt=""/>
+                    <img src={clockScreen} alt=""/>
                     <div>
                         <ul className="p-1">
-                            <li>Get random quotes with a single press of the button</li>
-                            <li>Instant quote sharing on twitter</li>
-                            <li>Single Page Application with React</li>
+                            <li>Clock for increasing productivity!</li>
+                            <li>Choose your work and break time intervals</li>
+                            <li>Get alarms for work and for breaks</li>
+                            <li>Single Page Application with React and Redux</li>
                         </ul>
                     </div>
                 </div>
                 <div>
                     <div><b>Link: </b>
-                        <a href="https://agnetasmergelyte.github.io/random-quote-machine/">https://agnetasmergelyte.github.io/random-quote-machine/</a>
+                        <a href="https://agnetasmergelyte.github.io/25plus5clock/">https://agnetasmergelyte.github.io/25plus5clock/</a>
                     </div>
                     <div className="mb-1"><b>See my code: </b>
-                        <a href="https://github.com/AgnetaSmergelyte/random-quote-machine">https://github.com/AgnetaSmergelyte/random-quote-machine</a>
+                        <a href="https://github.com/AgnetaSmergelyte/25plus5clock">https://github.com/AgnetaSmergelyte/25plus5clock</a>
                     </div>
                 </div>
-                <Technologies techArray={["react", "js", "html", "css", "sass"]}/>
+                <Technologies techArray={["react", "redux", "js", "html", "css", "sass"]}/>
             </div>
             <div className="project-entry p-1">
                 <h2>Markdown Previewer</h2>
@@ -130,27 +130,6 @@ const Portfolio = () => {
                     </div>
                     <div className="mb-1"><b>See my code: </b>
                         <a href="https://github.com/AgnetaSmergelyte/markdown-previewer">https://github.com/AgnetaSmergelyte/markdown-previewer</a>
-                    </div>
-                </div>
-                <Technologies techArray={["react", "js", "html", "css", "sass"]}/>
-            </div>
-            <div className="project-entry p-1">
-                <h2>Calculator</h2>
-                <div className="project-about">
-                    <img src={calculatorScreen} alt=""/>
-                    <div>
-                        <ul className="p-1">
-                            <li>Just a simple JavaScript calculator</li>
-                            <li>Single Page Application with React</li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <div><b>Link: </b>
-                        <a href="https://agnetasmergelyte.github.io/calculator/">https://agnetasmergelyte.github.io/calculator/</a>
-                    </div>
-                    <div className="mb-1"><b>See my code: </b>
-                        <a href="https://github.com/AgnetaSmergelyte/calculator">https://github.com/AgnetaSmergelyte/calculator</a>
                     </div>
                 </div>
                 <Technologies techArray={["react", "js", "html", "css", "sass"]}/>
@@ -177,50 +156,48 @@ const Portfolio = () => {
                 <Technologies techArray={["react", "js", "html", "css", "sass"]}/>
             </div>
             <div className="project-entry p-1">
-                <h2>25 + 5 Clock</h2>
+                <h2>Calculator</h2>
                 <div className="project-about">
-                    <img src={clockScreen} alt=""/>
+                    <img src={calculatorScreen} alt=""/>
                     <div>
                         <ul className="p-1">
-                            <li>Clock for increasing productivity!</li>
-                            <li>Choose your work and break time intervals</li>
-                            <li>Get alarms for work and for breaks</li>
-                            <li>Single Page Application with React and Redux</li>
+                            <li>Just a simple JavaScript calculator</li>
+                            <li>Single Page Application with React</li>
                         </ul>
                     </div>
                 </div>
                 <div>
                     <div><b>Link: </b>
-                        <a href="https://agnetasmergelyte.github.io/25plus5clock/">https://agnetasmergelyte.github.io/25plus5clock/</a>
+                        <a href="https://agnetasmergelyte.github.io/calculator/">https://agnetasmergelyte.github.io/calculator/</a>
                     </div>
                     <div className="mb-1"><b>See my code: </b>
-                        <a href="https://github.com/AgnetaSmergelyte/25plus5clock">https://github.com/AgnetaSmergelyte/25plus5clock</a>
+                        <a href="https://github.com/AgnetaSmergelyte/calculator">https://github.com/AgnetaSmergelyte/calculator</a>
                     </div>
                 </div>
-                <Technologies techArray={["react", "redux", "js", "html", "css", "sass"]}/>
+                <Technologies techArray={["react", "js", "html", "css", "sass"]}/>
             </div>
-            {/*<div className="project-entry p-1">*/}
-            {/*    <h2>Artist Website</h2>*/}
-            {/*    <div className="project-about">*/}
-            {/*        <img src={artistScreen} alt=""/>*/}
-            {/*        <div>*/}
-            {/*            <ul className="p-1">*/}
-            {/*                <li>Personal website for artist</li>*/}
-            {/*                <li>Poetry page</li>*/}
-            {/*                <li>Photo gallery</li>*/}
-            {/*            </ul>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*    <div>*/}
-            {/*        <div><b>Link: </b>*/}
-            {/*            <a href="https://dellamorte.vercel.app/">https://dellamorte.vercel.app/</a>*/}
-            {/*        </div>*/}
-            {/*        <div className="mb-1"><b>See my code: </b>*/}
-            {/*            <a href="https://github.com/AgnetaSmergelyte/dellamorte">https://github.com/AgnetaSmergelyte/dellamorte</a>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*    <Technologies techArray={["vite", "react", "reactRouter", "js", "html", "css", "sass"]}/>*/}
-            {/*</div>*/}
+            <div className="project-entry p-1">
+                <h2>Random Quote Machine</h2>
+                <div className="project-about">
+                    <img src={quotesScreen} alt=""/>
+                    <div>
+                        <ul className="p-1">
+                            <li>Get random quotes with a single press of the button</li>
+                            <li>Instant quote sharing on twitter</li>
+                            <li>Single Page Application with React</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div><b>Link: </b>
+                        <a href="https://agnetasmergelyte.github.io/random-quote-machine/">https://agnetasmergelyte.github.io/random-quote-machine/</a>
+                    </div>
+                    <div className="mb-1"><b>See my code: </b>
+                        <a href="https://github.com/AgnetaSmergelyte/random-quote-machine">https://github.com/AgnetaSmergelyte/random-quote-machine</a>
+                    </div>
+                </div>
+                <Technologies techArray={["react", "js", "html", "css", "sass"]}/>
+            </div>
         </div>
     );
 };

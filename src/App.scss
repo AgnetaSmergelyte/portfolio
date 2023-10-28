@@ -326,6 +326,15 @@ input, textarea {
   }
 }
 
+.loading-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url("images/loading.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 @keyframes spin-border {
   100% {
     transform: rotate(360deg);

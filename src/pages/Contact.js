@@ -33,10 +33,10 @@ const Contact = () => {
                 <h1 className="text-center">Feel free to drop me a message <em>or let's be social!</em></h1>
                 <input type="text" placeholder="Your email address"/>
                 <textarea placeholder="Message" rows="5"/>
-                {errorMsg && <b className="text-center text-red"><FontAwesomeIcon icon={faExclamationTriangle} /> {errorMsg}</b>}
-                {successMsg && <b className="text-center text-green"><FontAwesomeIcon icon={faCheck} /> {successMsg}</b>}
+                {errorMsg && <p className="text-center text-red"><FontAwesomeIcon icon={faExclamationTriangle} /> {errorMsg}</p>}
+                {successMsg && <p className="text-center text-green"><FontAwesomeIcon icon={faCheck} /> {successMsg}</p>}
                 {loadingMsg &&
-                    <div className="d-flex j-center a-center gap-1">
+                    <div className="d-flex j-center a-center gap-05">
                         <div className="loading-icon"></div>
                         <div>Sending...</div>
                     </div>

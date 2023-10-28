@@ -44,6 +44,10 @@
   padding: 1rem;
 }
 
+.gap-05 {
+  gap: 0.5rem;
+}
+
 .gap-1 {
   gap: 1rem;
 }
@@ -292,8 +296,8 @@ input, textarea {
 }
 
 .loading-icon {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   background-image: url("images/loading.gif");
   background-size: cover;
   background-position: center;

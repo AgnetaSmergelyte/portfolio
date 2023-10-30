@@ -45,7 +45,7 @@ const Contact = () => {
             })
             .catch(error => {
                 setLoadingMsg(false);
-                setErrorMsg('Server Error. Try again later or reach me on social media :)')
+                setErrorMsg('Server is down. Try again later or reach me on social media :)')
             });
     }
 

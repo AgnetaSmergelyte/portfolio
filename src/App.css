@@ -217,7 +217,7 @@ input, textarea {
   grid-template-columns: 1fr;
   gap: 1rem;
 }
-.project-about > img {
+.project-about > a > img {
   margin-top: 1rem;
   width: 100%;
   border: #3F2E3E solid 1px;

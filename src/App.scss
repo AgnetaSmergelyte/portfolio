@@ -250,7 +250,7 @@ input, textarea {
   grid-template-columns: 1fr;
   gap: 1rem;
 
-  & > img {
+  & > a > img {
     margin-top: 1rem;
     width: 100%;
     border: $color-dark solid 1px;

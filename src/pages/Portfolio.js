@@ -15,7 +15,7 @@ const Portfolio = () => {
             <div className="project-entry p-1">
                 <h2>Social Media App</h2>
                 <div className="project-about">
-                    <img src={socialScreen} alt=""/>
+                    <a href="https://github.com/AgnetaSmergelyte/final-assignment-front"><img src={socialScreen} alt=""/></a>
                     <div>
                         <ul className="p-1">
                             <li>Registration / Login (validations, autologin)</li>
@@ -43,7 +43,7 @@ const Portfolio = () => {
             <div className="project-entry p-1">
                 <h2>Fight Arena Game</h2>
                 <div className="project-about">
-                    <img src={arenaScreen} alt=""/>
+                    <a href="https://github.com/AgnetaSmergelyte/fight-arena-front"><img src={arenaScreen} alt=""/></a>
                     <div>
                         <ul className="p-1">
                             <li>Registration / Login (validations, autologin, chosen fighter)</li>
@@ -68,7 +68,7 @@ const Portfolio = () => {
             <div className="project-entry p-1">
                 <h2>Membership Management App</h2>
                 <div className="project-about">
-                    <img src={membershipsScreen} alt=""/>
+                    <a href="https://github.com/AgnetaSmergelyte/memberships-front"><img src={membershipsScreen} alt=""/></a>
                     <div>
                         <ul className="p-1">
                             <li>Create and manage membership packages</li>
@@ -91,7 +91,7 @@ const Portfolio = () => {
             <div className="project-entry p-1">
                 <h2>25 + 5 Clock</h2>
                 <div className="project-about">
-                    <img src={clockScreen} alt=""/>
+                    <a href="https://agnetasmergelyte.github.io/25plus5clock/"><img src={clockScreen} alt=""/></a>
                     <div>
                         <ul className="p-1">
                             <li>Clock for increasing productivity!</li>
@@ -114,7 +114,7 @@ const Portfolio = () => {
             <div className="project-entry p-1">
                 <h2>Markdown Previewer</h2>
                 <div className="project-about">
-                    <img src={markdownScreen} alt=""/>
+                    <a href="https://agnetasmergelyte.github.io/markdown-previewer/"><img src={markdownScreen} alt=""/></a>
                     <div>
                         <ul className="p-1">
                             <li>Online markdown editor</li>
@@ -137,7 +137,7 @@ const Portfolio = () => {
             <div className="project-entry p-1">
                 <h2>Drum Machine</h2>
                 <div className="project-about">
-                    <img src={drumsScreen} alt=""/>
+                    <a href="https://agnetasmergelyte.github.io/drum-machine/"><img src={drumsScreen} alt=""/></a>
                     <div>
                         <ul className="p-1">
                             <li>Play music with keyboard or pressing buttons with mouse</li>
@@ -158,7 +158,7 @@ const Portfolio = () => {
             <div className="project-entry p-1">
                 <h2>Calculator</h2>
                 <div className="project-about">
-                    <img src={calculatorScreen} alt=""/>
+                    <a href="https://agnetasmergelyte.github.io/calculator/"><img src={calculatorScreen} alt=""/></a>
                     <div>
                         <ul className="p-1">
                             <li>Just a simple JavaScript calculator</li>
@@ -179,7 +179,7 @@ const Portfolio = () => {
             <div className="project-entry p-1">
                 <h2>Random Quote Machine</h2>
                 <div className="project-about">
-                    <img src={quotesScreen} alt=""/>
+                    <a href="https://agnetasmergelyte.github.io/random-quote-machine/"><img src={quotesScreen} alt=""/></a>
                     <div>
                         <ul className="p-1">
                             <li>Get random quotes with a single press of the button</li>

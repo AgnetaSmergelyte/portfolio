@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useRef, useState} from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faFacebookSquare, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import {faCheck, faExclamationTriangle} from '@fortawesome/free-solid-svg-icons';
@@ -7,32 +7,54 @@ const Contact = () => {
     const [errorMsg, setErrorMsg] = useState('');
     const [successMsg, setSuccessMsg] = useState('');
     const [loadingMsg, setLoadingMsg] = useState(false);
-    const [sent, setSent] = useState(false)
+    const emailRef = useRef();
+    const messageRef = useRef();
 
     function sendMessage() {
         setLoadingMsg(true);
         setErrorMsg('');
         setSuccessMsg('');
-
-        setTimeout(() => {
+        const letter = {
+            email: emailRef.current.value,
+            message: messageRef.current.value
+        }
+        const emailRegex = /^([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?)$/
+        if (!letter.email.match(emailRegex)) {
             setLoadingMsg(false);
-            if (sent) {
-                setSuccessMsg(' Message sent');
-                setErrorMsg('');
-            } else {
-                setErrorMsg(' Message not sent');
-                setSuccessMsg('');
-            }
-            setSent(!sent);
-        }, 2000)
+            setErrorMsg("Incorrect email address");
+            return;
+        } else if (letter.message === '') {
+            setLoadingMsg(false);
+            setErrorMsg("Message cannot be empty");
+            return;
+        }
+        const options = {
+            method: "POST",
+            headers: {
+                "content-type" : "application/json"
+            },
+            body: JSON.stringify(letter)
+        }
+        fetch("http://localhost:8080/send", options)
+            .then(res => res.json())
+            .then(data => {
+                setLoadingMsg(false);
+                if (data.error) {
+                    setErrorMsg(data.message);
+                } else setSuccessMsg('Message sent');
+            })
+            .catch(error => {
+                setLoadingMsg(false);
+                setErrorMsg('Server Error. Try again later or reach me on social media :)')
+            });
     }
 
     return (
         <div className="d-flex f-col a-center p-1">
             <div className="d-flex f-col gap-1 contact-form">
                 <h1 className="text-center">Feel free to drop me a message <em>or let's be social!</em></h1>
-                <input type="text" placeholder="Your email address"/>
-                <textarea placeholder="Message" rows="5"/>
+                <input type="text" placeholder="Your email address" ref={emailRef}/>
+                <textarea placeholder="Message" rows="5" ref={messageRef}/>
                 {errorMsg && <p className="text-center text-red"><FontAwesomeIcon icon={faExclamationTriangle} /> {errorMsg}</p>}
                 {successMsg && <p className="text-center text-green"><FontAwesomeIcon icon={faCheck} /> {successMsg}</p>}
                 {loadingMsg &&

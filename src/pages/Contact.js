@@ -41,7 +41,11 @@ const Contact = () => {
                 setLoadingMsg(false);
                 if (data.error) {
                     setErrorMsg(data.message);
-                } else setSuccessMsg('Message sent');
+                } else {
+                    setSuccessMsg('Message sent');
+                    emailRef.current.value = '';
+                    messageRef.current.value = '';
+                }
             })
             .catch(error => {
                 setLoadingMsg(false);

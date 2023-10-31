@@ -19,12 +19,11 @@ const Portfolio = () => {
                     <div>
                         <ul className="p-1">
                             <li>Registration / Login (validations, autologin)</li>
-                            <li>User profile (default photo, photo and password edits)</li>
+                            <li>User profile (default photo, photo and password change options)</li>
                             <li>All Users List (find other users in database and send messages)</li>
                             <li>Live Chat</li>
                             <li>Posts (all users can create posts, see other posts appearing live, like, comment, sort
-                                by
-                                time/likes/comments, write instant messages to posts authors)
+                                by time/likes/comments, write instant messages to posts authors)
                             </li>
                         </ul>
                     </div>

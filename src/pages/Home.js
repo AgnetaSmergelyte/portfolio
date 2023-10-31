@@ -9,7 +9,7 @@ const Home = () => {
 
     return (
         <div className="p-1 d-flex f-col a-center gap-1 j-center mb-1 mt-1">
-            <div className="circle-img">
+            <div className="circle-img mt-1">
                 <img src={profilePic} alt=""/>
             </div>
             <div className="text-center d-flex f-col gap-1 info mb-05">

@@ -35,7 +35,7 @@ const Contact = () => {
             },
             body: JSON.stringify(letter)
         }
-        fetch("http://localhost:8080/send", options)
+        fetch("https://send-email-api-124q.onrender.com/send", options)
             .then(res => res.json())
             .then(data => {
                 setLoadingMsg(false);

@@ -124,7 +124,7 @@ input, textarea {
   color: #A05344;
 }
 
-.btn-main, .btn-secondary {
+.btn-main, .btn-link, .btn-secondary {
   cursor: pointer;
   border: #EFE1D1 solid 1px;
   border-radius: 30px;
@@ -134,7 +134,7 @@ input, textarea {
   font-size: 1.1rem;
   transition: 0.3s;
 }
-.btn-main:hover, .btn-secondary:hover {
+.btn-main:hover, .btn-link:hover, .btn-secondary:hover {
   background-color: #A05344;
 }
 
@@ -145,10 +145,18 @@ input, textarea {
   border: none;
 }
 
+.btn-link {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.btn-link span {
+  margin-left: 0.5rem;
+}
+
 .contact-form {
   width: 500px;
   max-width: 95vw;
-  font-size: 1.1rem;
 }
 .contact-form h1, .contact-form h2 {
   margin: 1rem 0;
@@ -204,11 +212,7 @@ input, textarea {
   font-size: 1.8rem;
 }
 .project-entry a {
-  color: #A78295;
-  transition: 0.3s;
-}
-.project-entry a:hover {
-  color: #A05344;
+  text-decoration: none;
 }
 
 .project-about {

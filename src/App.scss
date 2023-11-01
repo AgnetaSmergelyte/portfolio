@@ -171,10 +171,20 @@ input, textarea {
   border: none;
 }
 
+.btn-link {
+  @extend .btn-main;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+
+  span {
+    margin-left: 0.5rem;
+  }
+}
+
 .contact-form {
   width: 500px;
   max-width: 95vw;
-  font-size: 1.1rem;
 
   h1, h2 {
     margin: 1rem 0;
@@ -235,12 +245,7 @@ input, textarea {
   }
 
   a {
-    color: $color-medium;
-    transition: 0.3s;
-
-    &:hover {
-      color: $color-bright-main;
-    }
+    text-decoration: none;
   }
 }
 

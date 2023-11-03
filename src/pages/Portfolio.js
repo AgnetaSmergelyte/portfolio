@@ -34,7 +34,7 @@ const Portfolio = () => {
                     </div>
                     <Technologies
                         techArray={["react", "reactRouter", "redux", "node", "express", "socket", "mongoDb", "js", "html", "css", "sass"]}/>
-                    <div className="d-flex f-wrap j-center gap-1 mt-1">
+                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
                         <a className="btn-link" href="https://github.com/AgnetaSmergelyte/final-assignment-front">
                             <FontAwesomeIcon icon={faGithub} /><span>Frontend Code</span>
                         </a>
@@ -59,34 +59,11 @@ const Portfolio = () => {
                     </div>
                     <Technologies
                         techArray={["react", "reactRouter", "redux", "node", "express", "socket", "mongoDb", "js", "html", "css", "sass"]}/>
-                    <div className="d-flex f-wrap j-center gap-1 mt-1">
+                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
                         <a className="btn-link" href="https://github.com/AgnetaSmergelyte/fight-arena-front">
                             <FontAwesomeIcon icon={faGithub} /><span>Frontend Code</span>
                         </a>
                         <a className="btn-link" href="https://github.com/AgnetaSmergelyte/fight-arena-back">
-                            <FontAwesomeIcon icon={faGithub} /><span>Backend Code</span>
-                        </a>
-                    </div>
-                </div>
-                <div className="project-entry p-1">
-                    <h2>Membership Management App</h2>
-                    <div className="project-about">
-                        <a href="https://github.com/AgnetaSmergelyte/memberships-front"><img src={membershipsScreen} alt=""/></a>
-                        <div>
-                            <ul className="p-1">
-                                <li>Create and manage membership packages</li>
-                                <li>User management</li>
-                                <li>Assign memberships to users</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <Technologies
-                        techArray={["react", "reactRouter", "redux", "node", "express", "mongoDb", "js", "html", "css", "sass"]}/>
-                    <div className="d-flex f-wrap j-center gap-1 mt-1">
-                        <a className="btn-link" href="https://github.com/AgnetaSmergelyte/memberships-front">
-                            <FontAwesomeIcon icon={faGithub} /><span>Frontend Code</span>
-                        </a>
-                        <a className="btn-link" href="https://github.com/AgnetaSmergelyte/memberships-back">
                             <FontAwesomeIcon icon={faGithub} /><span>Backend Code</span>
                         </a>
                     </div>
@@ -105,7 +82,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <Technologies techArray={["react", "redux", "js", "html", "css", "sass"]}/>
-                    <div className="d-flex f-wrap j-center gap-1 mt-1">
+                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
                         <a className="btn-link" href="https://agnetasmergelyte.github.io/25plus5clock/">
                             <FontAwesomeIcon icon={faEye} /><span>View Live</span>
                         </a>
@@ -128,11 +105,33 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <Technologies techArray={["react", "js", "html", "css", "sass"]}/>
-                    <div className="d-flex f-wrap j-center gap-1 mt-1">
+                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
                         <a className="btn-link" href="https://agnetasmergelyte.github.io/markdown-previewer/">
                             <FontAwesomeIcon icon={faEye} /><span>View Live</span>
                         </a>
                         <a className="btn-link" href="https://github.com/AgnetaSmergelyte/markdown-previewer">
+                            <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
+                        </a>
+                    </div>
+                </div>
+                <div className="project-entry p-1">
+                    <h2>Random Quote Machine</h2>
+                    <div className="project-about">
+                        <a href="https://agnetasmergelyte.github.io/random-quote-machine/"><img src={quotesScreen} alt=""/></a>
+                        <div>
+                            <ul className="p-1">
+                                <li>Get random quotes with a single press of the button</li>
+                                <li>Instant quote sharing on twitter</li>
+                                <li>Single Page Application with React</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <Technologies techArray={["react", "js", "html", "css", "sass"]}/>
+                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
+                        <a className="btn-link" href="https://agnetasmergelyte.github.io/random-quote-machine/">
+                            <FontAwesomeIcon icon={faEye} /><span>View Live</span>
+                        </a>
+                        <a className="btn-link" href="https://github.com/AgnetaSmergelyte/random-quote-machine">
                             <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
                         </a>
                     </div>
@@ -149,7 +148,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <Technologies techArray={["react", "js", "html", "css", "sass"]}/>
-                    <div className="d-flex f-wrap j-center gap-1 mt-1">
+                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
                         <a className="btn-link" href="https://agnetasmergelyte.github.io/drum-machine/">
                             <FontAwesomeIcon icon={faEye} /><span>View Live</span>
                         </a>
@@ -170,7 +169,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <Technologies techArray={["react", "js", "html", "css", "sass"]}/>
-                    <div className="d-flex f-wrap j-center gap-1 mt-1">
+                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
                         <a className="btn-link" href="https://agnetasmergelyte.github.io/calculator/">
                             <FontAwesomeIcon icon={faEye} /><span>View Live</span>
                         </a>
@@ -180,24 +179,28 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="project-entry p-1">
-                    <h2>Random Quote Machine</h2>
+                    <h2>Membership Management App</h2>
                     <div className="project-about">
-                        <a href="https://agnetasmergelyte.github.io/random-quote-machine/"><img src={quotesScreen} alt=""/></a>
+                        <a href="https://memberships.onrender.com/"><img src={membershipsScreen} alt=""/></a>
                         <div>
                             <ul className="p-1">
-                                <li>Get random quotes with a single press of the button</li>
-                                <li>Instant quote sharing on twitter</li>
-                                <li>Single Page Application with React</li>
+                                <li>Create and manage membership packages</li>
+                                <li>User management</li>
+                                <li>Assign memberships to users</li>
                             </ul>
                         </div>
                     </div>
-                    <Technologies techArray={["react", "js", "html", "css", "sass"]}/>
-                    <div className="d-flex f-wrap j-center gap-1 mt-1">
-                        <a className="btn-link" href="https://agnetasmergelyte.github.io/random-quote-machine/">
+                    <Technologies
+                        techArray={["react", "reactRouter", "redux", "node", "express", "mongoDb", "js", "html", "css", "sass"]}/>
+                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
+                        <a className="btn-link" href="https://memberships.onrender.com/">
                             <FontAwesomeIcon icon={faEye} /><span>View Live</span>
                         </a>
-                        <a className="btn-link" href="https://github.com/AgnetaSmergelyte/random-quote-machine">
-                            <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
+                        <a className="btn-link" href="https://github.com/AgnetaSmergelyte/memberships-front">
+                            <FontAwesomeIcon icon={faGithub} /><span>Frontend Code</span>
+                        </a>
+                        <a className="btn-link" href="https://github.com/AgnetaSmergelyte/memberships-back">
+                            <FontAwesomeIcon icon={faGithub} /><span>Backend Code</span>
                         </a>
                     </div>
                 </div>

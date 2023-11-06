@@ -11,15 +11,19 @@ import markdownScreen from "../images/sceenshots/markdown.PNG";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEye } from '@fortawesome/free-solid-svg-icons';
+import {useNavigate} from "react-router-dom";
 
 const Portfolio = () => {
+    const nav = useNavigate();
     return (
         <div className="d-flex j-center">
             <div className="p-1 d-flex f-col gap-1 portfolio">
                 <div className="project-entry p-1">
                     <h2>Social Media App</h2>
                     <div className="project-about">
-                        <a href="https://github.com/AgnetaSmergelyte/final-assignment-front"><img src={socialScreen} alt=""/></a>
+                        <div onClick={() => nav("/portfolio/social-media-app")}>
+                            <img className="project-img" src={socialScreen} alt=""/>
+                        </div>
                         <div>
                             <ul className="p-1">
                                 <li>Registration / Login (validations, autologin)</li>
@@ -46,7 +50,7 @@ const Portfolio = () => {
                 <div className="project-entry p-1">
                     <h2>Fight Arena Game</h2>
                     <div className="project-about">
-                        <a href="https://github.com/AgnetaSmergelyte/fight-arena-front"><img src={arenaScreen} alt=""/></a>
+                        <div onClick={() => nav("/portfolio/arena")}><img className="project-img" src={arenaScreen} alt=""/></div>
                         <div>
                             <ul className="p-1">
                                 <li>Registration / Login (validations, autologin, chosen fighter)</li>
@@ -71,7 +75,9 @@ const Portfolio = () => {
                 <div className="project-entry p-1">
                     <h2>25 + 5 Clock</h2>
                     <div className="project-about">
-                        <a href="https://agnetasmergelyte.github.io/25plus5clock/"><img src={clockScreen} alt=""/></a>
+                        <a href="https://agnetasmergelyte.github.io/25plus5clock/">
+                            <img className="project-img" src={clockScreen} alt=""/>
+                        </a>
                         <div>
                             <ul className="p-1">
                                 <li>Clock for increasing productivity!</li>
@@ -94,7 +100,9 @@ const Portfolio = () => {
                 <div className="project-entry p-1">
                     <h2>Markdown Previewer</h2>
                     <div className="project-about">
-                        <a href="https://agnetasmergelyte.github.io/markdown-previewer/"><img src={markdownScreen} alt=""/></a>
+                        <a href="https://agnetasmergelyte.github.io/markdown-previewer/">
+                            <img  className="project-img" src={markdownScreen} alt=""/>
+                        </a>
                         <div>
                             <ul className="p-1">
                                 <li>Online markdown editor</li>
@@ -117,7 +125,9 @@ const Portfolio = () => {
                 <div className="project-entry p-1">
                     <h2>Random Quote Machine</h2>
                     <div className="project-about">
-                        <a href="https://agnetasmergelyte.github.io/random-quote-machine/"><img src={quotesScreen} alt=""/></a>
+                        <a href="https://agnetasmergelyte.github.io/random-quote-machine/">
+                            <img className="project-img" src={quotesScreen} alt=""/>
+                        </a>
                         <div>
                             <ul className="p-1">
                                 <li>Get random quotes with a single press of the button</li>
@@ -139,7 +149,9 @@ const Portfolio = () => {
                 <div className="project-entry p-1">
                     <h2>Drum Machine</h2>
                     <div className="project-about">
-                        <a href="https://agnetasmergelyte.github.io/drum-machine/"><img src={drumsScreen} alt=""/></a>
+                        <a href="https://agnetasmergelyte.github.io/drum-machine/">
+                            <img className="project-img" src={drumsScreen} alt=""/>
+                        </a>
                         <div>
                             <ul className="p-1">
                                 <li>Play music with keyboard or pressing buttons with mouse</li>
@@ -160,7 +172,9 @@ const Portfolio = () => {
                 <div className="project-entry p-1">
                     <h2>Calculator</h2>
                     <div className="project-about">
-                        <a href="https://agnetasmergelyte.github.io/calculator/"><img src={calculatorScreen} alt=""/></a>
+                        <a href="https://agnetasmergelyte.github.io/calculator/">
+                            <img className="project-img" src={calculatorScreen} alt=""/>
+                        </a>
                         <div>
                             <ul className="p-1">
                                 <li>Just a simple JavaScript calculator</li>
@@ -175,32 +189,6 @@ const Portfolio = () => {
                         </a>
                         <a className="btn-link" href="https://github.com/AgnetaSmergelyte/calculator">
                             <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
-                        </a>
-                    </div>
-                </div>
-                <div className="project-entry p-1">
-                    <h2>Membership Management App</h2>
-                    <div className="project-about">
-                        <a href="https://memberships.onrender.com/"><img src={membershipsScreen} alt=""/></a>
-                        <div>
-                            <ul className="p-1">
-                                <li>Create and manage membership packages</li>
-                                <li>User management</li>
-                                <li>Assign memberships to users</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <Technologies
-                        techArray={["react", "reactRouter", "redux", "node", "express", "mongoDb", "js", "html", "css", "sass"]}/>
-                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
-                        <a className="btn-link" href="https://memberships.onrender.com/">
-                            <FontAwesomeIcon icon={faEye} /><span>View Live</span>
-                        </a>
-                        <a className="btn-link" href="https://github.com/AgnetaSmergelyte/memberships-front">
-                            <FontAwesomeIcon icon={faGithub} /><span>Frontend Code</span>
-                        </a>
-                        <a className="btn-link" href="https://github.com/AgnetaSmergelyte/memberships-back">
-                            <FontAwesomeIcon icon={faGithub} /><span>Backend Code</span>
                         </a>
                     </div>
                 </div>

@@ -222,7 +222,9 @@ input, textarea {
   grid-template-columns: 1fr;
   gap: 1rem;
 }
-.project-about > a > img {
+
+.project-img {
+  cursor: pointer;
   margin-top: 1rem;
   width: 100%;
   border: #3F2E3E solid 1px;
@@ -309,6 +311,28 @@ input, textarea {
   background-repeat: no-repeat;
 }
 
+.project-text {
+  margin-left: 1rem;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+.project-entry-full {
+  max-width: 950px;
+}
+.project-entry-full img {
+  width: 100%;
+}
+
+.mobile-version-album {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.mobile-version-album img {
+  width: 100%;
+}
+
 @keyframes spin-border {
   100% {
     transform: rotate(360deg);
@@ -352,6 +376,9 @@ input, textarea {
     width: 100%;
     display: flex;
   }
+  .mobile-version-album {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 .btn-toggle > button {
   padding: 1rem;
@@ -368,6 +395,9 @@ input, textarea {
 }
 
 @media (min-width: 864px) {
+  .f-lg-row {
+    flex-direction: row;
+  }
   .portfolio {
     max-width: 1000px;
   }

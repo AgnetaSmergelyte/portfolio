@@ -2,7 +2,7 @@ import React from 'react';
 import media1 from '../images/media-app/1.png';
 import media2 from '../images/media-app/2.png';
 import media3 from '../images/media-app/3.png';
-import media4 from '../images/media-app/4.png';
+import media4 from '../images/media-app/44.png';
 import media5 from '../images/media-app/5.png';
 import media6 from '../images/media-app/6.png';
 import media7 from '../images/media-app/7.png';

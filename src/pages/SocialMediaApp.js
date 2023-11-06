@@ -1,14 +1,4 @@
 import React from 'react';
-import media1 from '../images/media-app/img1.png';
-import media2 from '../images/media-app/img2.png';
-import media3 from '../images/media-app/img3.png';
-import media4 from '../images/media-app/img4.png';
-import media5 from '../images/media-app/img5.png';
-import media6 from '../images/media-app/img6.png';
-import media7 from '../images/media-app/img7.png';
-import media8 from '../images/media-app/img8.png';
-import media9 from '../images/media-app/img9.png';
-import media10 from '../images/media-app/img10.png';
 
 const SocialMediaApp = () => {
     return (
@@ -45,19 +35,19 @@ const SocialMediaApp = () => {
                 </div>
                 <h2 className="text-center mt-1 mb-1">Mobile Version</h2>
                 <div className="mobile-version-album">
-                    <img src={media1} alt=""/>
-                    <img src={media2} alt=""/>
-                    <img src={media3} alt=""/>
-                    <img src={media4} alt=""/>
-                    <img src={media5} alt=""/>
-                    <img src={media6} alt=""/>
+                    <img src="/images/media-app/img1.png" alt=""/>
+                    <img src="/images/media-app/img2.png" alt=""/>
+                    <img src="/images/media-app/img3.png" alt=""/>
+                    <img src="/images/media-app/img4.png" alt=""/>
+                    <img src="/images/media-app/img5.png" alt=""/>
+                    <img src="/images/media-app/img6.png" alt=""/>
                 </div>
                 <h2 className="text-center mt-1 mb-1">Desktop Version</h2>
                 <div className="d-flex f-col gap-1">
-                    <img src={media7} alt=""/>
-                    <img src={media8} alt=""/>
-                    <img src={media9} alt=""/>
-                    <img src={media10} alt=""/>
+                    <img src="/images/media-app/img7.png" alt=""/>
+                    <img src="/images/media-app/img8.png" alt=""/>
+                    <img src="/images/media-app/img9.png" alt=""/>
+                    <img src="/images/media-app/img10.png" alt=""/>
                 </div>
             </div>
         </div>

@@ -1,14 +1,14 @@
 import React from 'react';
-import media1 from '../images/media-app/1.png';
-import media2 from '../images/media-app/2.png';
-import media3 from '../images/media-app/3.png';
-import media4 from '../images/media-app/44.png';
-import media5 from '../images/media-app/5.png';
-import media6 from '../images/media-app/6.png';
-import media7 from '../images/media-app/7.png';
-import media8 from '../images/media-app/8.png';
-import media9 from '../images/media-app/9.png';
-import media10 from '../images/media-app/10.png';
+import media1 from '../images/media-app/1.PNG';
+import media2 from '../images/media-app/2.PNG';
+import media3 from '../images/media-app/3.PNG';
+import media4 from '../images/media-app/4.PNG';
+import media5 from '../images/media-app/5.PNG';
+import media6 from '../images/media-app/6.PNG';
+import media7 from '../images/media-app/7.PNG';
+import media8 from '../images/media-app/8.PNG';
+import media9 from '../images/media-app/9.PNG';
+import media10 from '../images/media-app/10.PNG';
 
 const SocialMediaApp = () => {
     return (

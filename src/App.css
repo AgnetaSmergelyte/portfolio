@@ -148,6 +148,11 @@ input, textarea {
 .btn-link {
   padding: 0.5rem 1rem;
   font-size: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 5px 1px rgba(167, 130, 149, 0.75);
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(167, 130, 149, 0.75);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(167, 130, 149, 0.75);
+  border: none;
 }
 .btn-link span {
   margin-left: 0.5rem;
@@ -195,7 +200,7 @@ input, textarea {
 }
 
 .project-entry {
-  background-color: #331D2C;
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 5px;
   color: #EFE1D1;
   display: flex;

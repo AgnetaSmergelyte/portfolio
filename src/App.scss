@@ -175,6 +175,9 @@ input, textarea {
   @extend .btn-main;
   padding: 0.5rem 1rem;
   font-size: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  @include box-shadow-light;
+  border: none;
 
   span {
     margin-left: 0.5rem;
@@ -229,7 +232,7 @@ input, textarea {
 }
 
 .project-entry {
-  background-color: $color-darkest;
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 5px;
   color: $color-light;
   display: flex;

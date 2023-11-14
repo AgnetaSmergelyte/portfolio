@@ -6,7 +6,6 @@ import arena4 from '../images/arena/4.png';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowLeft} from '@fortawesome/free-solid-svg-icons';
 import {useNavigate} from "react-router-dom";
-import GoUp from "../components/GoUp";
 
 const Arena = () => {
     const nav = useNavigate();
@@ -58,7 +57,6 @@ const Arena = () => {
                 <FontAwesomeIcon className="big-icon" icon={faArrowLeft}/>
                 <span>All Projects</span>
             </div>
-            <GoUp />
         </div>
     );
 };

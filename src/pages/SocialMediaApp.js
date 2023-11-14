@@ -2,7 +2,6 @@ import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowLeft} from '@fortawesome/free-solid-svg-icons';
 import {useNavigate} from "react-router-dom";
-import GoUp from "../components/GoUp";
 
 const SocialMediaApp = () => {
     const nav = useNavigate();
@@ -59,7 +58,6 @@ const SocialMediaApp = () => {
                 <FontAwesomeIcon className="big-icon" icon={faArrowLeft}/>
                 <span>All Projects</span>
             </div>
-            <GoUp />
         </div>
     );
 };

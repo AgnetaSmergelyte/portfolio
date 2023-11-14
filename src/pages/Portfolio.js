@@ -11,7 +11,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 import {useNavigate} from "react-router-dom";
-import GoUp from "../components/GoUp";
 
 const Portfolio = () => {
     const nav = useNavigate();
@@ -196,7 +195,6 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <GoUp />
         </div>
     );
 };

@@ -7,13 +7,15 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Arena from "./pages/Arena";
 import SocialMediaApp from "./pages/SocialMediaApp";
-import {useEffect} from "react";
+import React, {useEffect} from "react";
+import GoUp from "./components/GoUp";
 
 function App() {
     useEffect(() => {
         fetch("https://send-email-api-124q.onrender.com/wakeup")
             .then(res => res.json())
-            .catch(err => {})
+            .catch(err => {
+            })
     }, [])
     return (
         <div>
@@ -26,6 +28,7 @@ function App() {
                 <Route path="/portfolio/arena" element={<Arena/>}/>
                 <Route path="/portfolio/social-media-app" element={<SocialMediaApp/>}/>
             </Routes>
+            <GoUp/>
         </div>
     );
 }

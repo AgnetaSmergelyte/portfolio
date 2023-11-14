@@ -338,6 +338,47 @@ input, textarea {
   width: 100%;
 }
 
+.go-back {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 0.5rem;
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 1rem;
+}
+.go-back svg {
+  font-size: 1.5rem;
+}
+.go-back:hover {
+  color: #A05344;
+}
+
+.scroll-up-button {
+  height: 45px;
+  width: 45px;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  color: #EFE1D1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  background-color: #734046;
+  border: #A78295 solid 1px;
+}
+.scroll-up-button:hover {
+  background-color: #A05344;
+}
+
+.scroll-up-button.visible {
+  opacity: 1;
+}
+
 @keyframes spin-border {
   100% {
     transform: rotate(360deg);

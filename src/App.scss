@@ -375,6 +375,50 @@ input, textarea {
   }
 }
 
+.go-back {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 0.5rem;
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 1rem;
+
+  & svg {
+    font-size: 1.5rem;
+  }
+
+  &:hover {
+    color: $color-bright-main;
+  }
+}
+
+.scroll-up-button {
+  height: 45px;
+  width: 45px;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  color: $color-light;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  background-color: $color-bright-second;
+  border: $color-medium solid 1px;
+
+  &:hover {
+    background-color: $color-bright-main;
+  }
+}
+
+.scroll-up-button.visible {
+  opacity: 1;
+}
+
 @keyframes spin-border {
   100% {
     transform: rotate(360deg);

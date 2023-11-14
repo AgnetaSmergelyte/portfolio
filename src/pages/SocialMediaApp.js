@@ -1,6 +1,10 @@
 import React from 'react';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faArrowLeft} from '@fortawesome/free-solid-svg-icons';
+import {useNavigate} from "react-router-dom";
 
 const SocialMediaApp = () => {
+    const nav = useNavigate();
     return (
         <div className="d-flex f-col a-center mt-1 gap-1 p-1">
             <h1 className="text-center mt-1">Social Media App</h1>
@@ -49,6 +53,10 @@ const SocialMediaApp = () => {
                     <img src="/images/media-app/img9.png" alt=""/>
                     <img src="/images/media-app/img10.png" alt=""/>
                 </div>
+            </div>
+            <div className="go-back" onClick={() => nav("/portfolio")}>
+                <FontAwesomeIcon className="big-icon" icon={faArrowLeft}/>
+                <span>All Projects</span>
             </div>
         </div>
     );

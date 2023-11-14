@@ -1,8 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Technologies from "../components/Technologies";
 import socialScreen from "../images/sceenshots/social.PNG";
 import arenaScreen from "../images/sceenshots/arena.png";
-import membershipsScreen from "../images/sceenshots/memberships.png";
 import clockScreen from "../images/sceenshots/clock.PNG";
 import calculatorScreen from "../images/sceenshots/calculator.PNG";
 import drumsScreen from "../images/sceenshots/drums.PNG";
@@ -12,9 +11,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 import {useNavigate} from "react-router-dom";
+import GoUp from "../components/GoUp";
 
 const Portfolio = () => {
     const nav = useNavigate();
+    useEffect(() => {
+        window.scrollTo({top: 0, left: 0});
+    }, []);
     return (
         <div className="d-flex j-center">
             <div className="p-1 d-flex f-col gap-1 portfolio">
@@ -193,6 +196,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
+            <GoUp />
         </div>
     );
 };

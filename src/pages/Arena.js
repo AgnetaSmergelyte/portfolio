@@ -1,10 +1,14 @@
 import React from 'react';
-import arena1 from '../images/arena/1.png'
-import arena2 from '../images/arena/2.png'
-import arena3 from '../images/arena/3.png'
-import arena4 from '../images/arena/4.png'
+import arena1 from '../images/arena/1.png';
+import arena2 from '../images/arena/2.png';
+import arena3 from '../images/arena/3.png';
+import arena4 from '../images/arena/4.png';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faArrowLeft} from '@fortawesome/free-solid-svg-icons';
+import {useNavigate} from "react-router-dom";
 
 const Arena = () => {
+    const nav = useNavigate();
     return (
         <div className="d-flex f-col a-center mt-1 gap-1 p-1">
             <h1 className="text-center mt-1">Fight Arena Game</h1>
@@ -48,6 +52,10 @@ const Arena = () => {
                 <div>
                     <img src={arena4} alt=""/>
                 </div>
+            </div>
+            <div className="go-back" onClick={() => nav("/portfolio")}>
+                <FontAwesomeIcon className="big-icon" icon={faArrowLeft}/>
+                <span>All Projects</span>
             </div>
         </div>
     );

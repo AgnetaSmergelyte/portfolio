@@ -7,6 +7,7 @@ import calculatorScreen from "../images/sceenshots/calculator.PNG";
 import drumsScreen from "../images/sceenshots/drums.PNG";
 import quotesScreen from "../images/sceenshots/quote.PNG";
 import markdownScreen from "../images/sceenshots/markdown.PNG";
+import oracleScreen from "../images/sceenshots/oracle.PNG";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEye } from '@fortawesome/free-solid-svg-icons';
@@ -190,6 +191,29 @@ const Portfolio = () => {
                             <FontAwesomeIcon icon={faEye} /><span>View Live</span>
                         </a>
                         <a className="btn-link" href="https://github.com/AgnetaSmergelyte/calculator">
+                            <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
+                        </a>
+                    </div>
+                </div>
+                <div className="project-entry p-1">
+                    <h2>The Oracle</h2>
+                    <div className="project-about">
+                        <a href="https://knowthetruth.vercel.app/">
+                            <img className="project-img" src={oracleScreen} alt=""/>
+                        </a>
+                        <div>
+                            <ul className="p-1">
+                                <li>Turn your sound on and hear the truth!</li>
+                                <li>Single Page Application with React</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <Technologies techArray={["react", "js", "html", "css", "sass"]}/>
+                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
+                        <a className="btn-link" href="https://knowthetruth.vercel.app/">
+                            <FontAwesomeIcon icon={faEye} /><span>View Live</span>
+                        </a>
+                        <a className="btn-link" href="https://github.com/AgnetaSmergelyte/oracle">
                             <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
                         </a>
                     </div>

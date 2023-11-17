@@ -35,7 +35,7 @@ const Contact = () => {
             },
             body: JSON.stringify(letter)
         }
-        fetch("https://send-email-op9hcp1qv-spegys-projects.vercel.app/send", options)
+        fetch("https://send-email-api-lovat.vercel.app/send", options)
             .then(res => res.json())
             .then(data => {
                 setLoadingMsg(false);

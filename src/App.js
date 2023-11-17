@@ -11,12 +11,6 @@ import React, {useEffect} from "react";
 import GoUp from "./components/GoUp";
 
 function App() {
-    useEffect(() => {
-        fetch("https://send-email-api-124q.onrender.com/wakeup")
-            .then(res => res.json())
-            .catch(err => {
-            })
-    }, [])
     return (
         <div>
             <Toolbar/>

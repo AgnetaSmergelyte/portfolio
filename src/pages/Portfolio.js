@@ -133,7 +133,7 @@ const Portfolio = () => {
                         </a>
                         <div>
                             <ul className="p-1">
-                                <li>Get random quotes with a single press of the button</li>
+                                <li>Get random quotes with a single press of the button from the Quotes API</li>
                                 <li>Instant quote sharing on twitter</li>
                                 <li>Single Page Application with React</li>
                             </ul>

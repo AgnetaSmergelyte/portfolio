@@ -8,6 +8,7 @@ import drumsScreen from "../images/sceenshots/drums.PNG";
 import quotesScreen from "../images/sceenshots/quote.PNG";
 import markdownScreen from "../images/sceenshots/markdown.PNG";
 import oracleScreen from "../images/sceenshots/oracle.PNG";
+import ragFoodScreen from "../images/sceenshots/ragfood.PNG";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEye } from '@fortawesome/free-solid-svg-icons';
@@ -40,7 +41,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <Technologies
-                        techArray={["react", "reactRouter", "redux", "node", "express", "socket", "mongoDb", "js", "html", "css", "sass"]}/>
+                        techArray={["js", "react", "reactRouter", "redux", "node", "express", "socket", "mongoDb", "sass"]}/>
                     <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
                         <a className="btn-link" href="https://github.com/AgnetaSmergelyte/final-assignment-front">
                             <FontAwesomeIcon icon={faGithub} /><span>Frontend Code</span>
@@ -65,13 +66,62 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <Technologies
-                        techArray={["react", "reactRouter", "redux", "node", "express", "socket", "mongoDb", "js", "html", "css", "sass"]}/>
+                        techArray={["js", "react", "reactRouter", "redux", "node", "express", "socket", "mongoDb", "sass"]}/>
                     <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
                         <a className="btn-link" href="https://github.com/AgnetaSmergelyte/fight-arena-front">
                             <FontAwesomeIcon icon={faGithub} /><span>Frontend Code</span>
                         </a>
                         <a className="btn-link" href="https://github.com/AgnetaSmergelyte/fight-arena-back">
                             <FontAwesomeIcon icon={faGithub} /><span>Backend Code</span>
+                        </a>
+                    </div>
+                </div>
+                <div className="project-entry p-1">
+                    <h2>RagFood Website Clone</h2>
+                    <div className="project-about">
+                        <a href="https://ragfood-clone.vercel.app/">
+                            <img className="project-img" src={ragFoodScreen} alt=""/>
+                        </a>
+                        <div>
+                            <ul className="p-1">
+                                <li>Website clone to show my abilities to copy designs</li>
+                                <li>My first HTML/CSS assignment (JS added later)</li>
+                                <li className="link-light">To see original
+                                    <a href="https://preview.themeforest.net/item/ragfood-restaurent-html-template/full_screen_preview/45638604?_ga=2.86321304.168419542.1700460621-1389662263.1700460621"> click here</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <Technologies techArray={["html", "js", "css", "sass"]}/>
+                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
+                        <a className="btn-link" href="https://ragfood-clone.vercel.app/">
+                            <FontAwesomeIcon icon={faEye} /><span>View Live</span>
+                        </a>
+                        <a className="btn-link" href="https://github.com/AgnetaSmergelyte/css-assignment">
+                            <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
+                        </a>
+                    </div>
+                </div>
+                <div className="project-entry p-1">
+                    <h2>The Oracle</h2>
+                    <div className="project-about">
+                        <a href="https://knowthetruth.vercel.app/">
+                            <img className="project-img" src={oracleScreen} alt=""/>
+                        </a>
+                        <div>
+                            <ul className="p-1">
+                                <li>Turn your sound on and hear the truth!</li>
+                                <li>Single Page Application with React</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <Technologies techArray={["js", "react", "sass"]}/>
+                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
+                        <a className="btn-link" href="https://knowthetruth.vercel.app/">
+                            <FontAwesomeIcon icon={faEye} /><span>View Live</span>
+                        </a>
+                        <a className="btn-link" href="https://github.com/AgnetaSmergelyte/oracle">
+                            <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
                         </a>
                     </div>
                 </div>
@@ -90,7 +140,7 @@ const Portfolio = () => {
                             </ul>
                         </div>
                     </div>
-                    <Technologies techArray={["react", "redux", "js", "html", "css", "sass"]}/>
+                    <Technologies techArray={["js", "react", "redux", "sass"]}/>
                     <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
                         <a className="btn-link" href="https://agnetasmergelyte.github.io/25plus5clock/">
                             <FontAwesomeIcon icon={faEye} /><span>View Live</span>
@@ -115,7 +165,7 @@ const Portfolio = () => {
                             </ul>
                         </div>
                     </div>
-                    <Technologies techArray={["react", "js", "html", "css", "sass"]}/>
+                    <Technologies techArray={["js", "react", "sass"]}/>
                     <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
                         <a className="btn-link" href="https://agnetasmergelyte.github.io/markdown-previewer/">
                             <FontAwesomeIcon icon={faEye} /><span>View Live</span>
@@ -139,7 +189,7 @@ const Portfolio = () => {
                             </ul>
                         </div>
                     </div>
-                    <Technologies techArray={["react", "js", "html", "css", "sass"]}/>
+                    <Technologies techArray={["js", "react", "sass"]}/>
                     <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
                         <a className="btn-link" href="https://agnetasmergelyte.github.io/random-quote-machine/">
                             <FontAwesomeIcon icon={faEye} /><span>View Live</span>
@@ -162,7 +212,7 @@ const Portfolio = () => {
                             </ul>
                         </div>
                     </div>
-                    <Technologies techArray={["react", "js", "html", "css", "sass"]}/>
+                    <Technologies techArray={["js", "react", "sass"]}/>
                     <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
                         <a className="btn-link" href="https://agnetasmergelyte.github.io/drum-machine/">
                             <FontAwesomeIcon icon={faEye} /><span>View Live</span>
@@ -185,35 +235,12 @@ const Portfolio = () => {
                             </ul>
                         </div>
                     </div>
-                    <Technologies techArray={["react", "js", "html", "css", "sass"]}/>
+                    <Technologies techArray={["js", "react", "sass"]}/>
                     <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
                         <a className="btn-link" href="https://agnetasmergelyte.github.io/calculator/">
                             <FontAwesomeIcon icon={faEye} /><span>View Live</span>
                         </a>
                         <a className="btn-link" href="https://github.com/AgnetaSmergelyte/calculator">
-                            <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
-                        </a>
-                    </div>
-                </div>
-                <div className="project-entry p-1">
-                    <h2>The Oracle</h2>
-                    <div className="project-about">
-                        <a href="https://knowthetruth.vercel.app/">
-                            <img className="project-img" src={oracleScreen} alt=""/>
-                        </a>
-                        <div>
-                            <ul className="p-1">
-                                <li>Turn your sound on and hear the truth!</li>
-                                <li>Single Page Application with React</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <Technologies techArray={["react", "js", "html", "css", "sass"]}/>
-                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
-                        <a className="btn-link" href="https://knowthetruth.vercel.app/">
-                            <FontAwesomeIcon icon={faEye} /><span>View Live</span>
-                        </a>
-                        <a className="btn-link" href="https://github.com/AgnetaSmergelyte/oracle">
                             <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
                         </a>
                     </div>

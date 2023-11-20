@@ -379,6 +379,10 @@ input, textarea {
   opacity: 1;
 }
 
+.link-light a {
+  color: #A05344;
+}
+
 @keyframes spin-border {
   100% {
     transform: rotate(360deg);

@@ -8,7 +8,7 @@ const Home = () => {
     const nav = useNavigate();
 
     return (
-        <div className="p-1 d-flex f-col a-center gap-1 j-center mb-1 mt-1">
+        <div className="p-1 d-flex f-col a-center gap-1 j-center mb-1 mt-1 overflow-hidden">
             <div className="circle-img mt-1 mb-1">
                 <img src={profilePic} alt=""/>
             </div>

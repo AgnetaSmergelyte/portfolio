@@ -80,6 +80,10 @@
   color: #c56312;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 body {
   background-color: #331D2C;
   color: #EFE1D1;

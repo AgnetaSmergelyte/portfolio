@@ -99,6 +99,10 @@ $color-bright-second: #734046;
   color: #c56312;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 body {
   background-color: $color-darkest;
   color: $color-light;

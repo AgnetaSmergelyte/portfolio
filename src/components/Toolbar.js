@@ -1,37 +1,22 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {NavLink} from "react-router-dom";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faBars, faTimes} from '@fortawesome/free-solid-svg-icons';
-const openMenu = <FontAwesomeIcon icon={faBars}/>;
-const closeMenu = <FontAwesomeIcon icon={faTimes}/>;
+import {faHouse, faBriefcase, faUser, faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 const Toolbar = () => {
-    const [toggleMenu, setToggleMenu] = useState(openMenu);
-    const [toggleDisplay, setToggleDisplay] = useState('menu-closed');
-    function toggleMainMenu() {
-        if (toggleMenu === closeMenu) {
-            setToggleDisplay('menu-closed');
-            setToggleMenu(openMenu);
-        } else {
-            setToggleDisplay('menu-opened');
-            setToggleMenu(closeMenu);
-        }
-    }
-    function closeMainMenu() {
-        setToggleDisplay('menu-closed');
-        setToggleMenu(openMenu);
-    }
-
     return (
-        <div className="toolbar f-wrap">
-            <div className="btn-toggle d-flex j-end a-center">
-                <button onClick={toggleMainMenu}>{toggleMenu}</button>
-            </div>
-            <div className={"d-flex menu " + toggleDisplay} onClick={closeMainMenu}>
+        <div className="toolbar">
+            <div className="nav">
                 <NavLink className="menu-item" to="/">Home</NavLink>
                 <NavLink className="menu-item" to="/portfolio">My Projects</NavLink>
                 <NavLink className="menu-item" to="/about">About Me</NavLink>
                 <NavLink className="menu-item" to="/contact">Contact</NavLink>
+            </div>
+            <div className="nav-icon">
+                <NavLink className="menu-item" to="/"><FontAwesomeIcon icon={faHouse}/></NavLink>
+                <NavLink className="menu-item" to="/portfolio"><FontAwesomeIcon icon={faBriefcase}/></NavLink>
+                <NavLink className="menu-item" to="/about"><FontAwesomeIcon icon={faUser}/></NavLink>
+                <NavLink className="menu-item" to="/contact"><FontAwesomeIcon icon={faEnvelope}/></NavLink>
             </div>
         </div>
     );

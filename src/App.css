@@ -251,13 +251,22 @@ input, textarea {
 .toolbar {
   width: 100%;
   background-color: #331D2C;
+  padding-top: 0.5rem;
   display: flex;
   color: #EFE1D1;
-  flex-direction: column;
   box-sizing: border-box;
   box-shadow: 0px 0px 10px 3px rgba(160, 83, 68, 0.75);
   -webkit-box-shadow: 0px 0px 10px 3px rgba(160, 83, 68, 0.75);
   -moz-box-shadow: 0px 0px 10px 3px rgba(160, 83, 68, 0.75);
+}
+
+.nav {
+  display: none;
+}
+
+.nav-icon {
+  width: 100%;
+  display: flex;
 }
 
 .menu-item {
@@ -267,23 +276,17 @@ input, textarea {
   transition: 0.3s;
   font-size: 1.1rem;
   padding: 1rem;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  border-bottom: #331D2C solid 3px;
 }
 .menu-item:hover {
-  color: #A05344;
-  border-bottom: #A05344 solid 2px;
+  border-bottom: #734046 solid 3px;
 }
 
 .active {
   color: #A05344;
-}
-
-.menu-closed {
-  display: none;
-}
-
-.menu-opened {
-  display: flex;
-  flex-direction: column;
 }
 
 .about-text {
@@ -398,56 +401,20 @@ input, textarea {
   }
 }
 @media (min-width: 600px) {
-  .btn-toggle {
+  .nav {
+    width: 100%;
+    display: flex;
+  }
+  .nav-icon {
     display: none;
   }
   .project-about {
     grid-template-columns: 200px 1fr;
   }
-  .menu-closed {
-    display: flex;
-  }
-  .menu-opened {
-    flex-direction: row;
-  }
-  .toolbar {
-    background-color: #331D2C;
-    padding: 10px 0 0;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .menu-item {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    border-bottom: #331D2C solid 3px;
-  }
-  .menu-item:hover {
-    border-bottom: #734046 solid 3px;
-  }
-  .menu {
-    width: 100%;
-    display: flex;
-  }
   .mobile-version-album {
     grid-template-columns: 1fr 1fr;
   }
 }
-.btn-toggle > button {
-  padding: 1rem;
-  background-color: #331D2C;
-  font-size: 2rem;
-  color: #EFE1D1;
-  border: none;
-  cursor: pointer;
-  transition: 0.3s;
-  opacity: 0.7;
-}
-.btn-toggle > button:hover {
-  opacity: 1;
-}
-
 @media (min-width: 864px) {
   .f-lg-row {
     flex-direction: row;

@@ -34,7 +34,7 @@ const Portfolio = () => {
                                 <li>User profile (default photo, photo and password change options)</li>
                                 <li>All Users List (find other users in database and send messages)</li>
                                 <li>Live Chat</li>
-                                <li>Posts (all users can create posts, see other posts appearing live, like, comment, sort
+                                <li>Posts (all users can create posts, see all the posts appearing live, like, comment, sort
                                     by time/likes/comments, write instant messages to posts authors)
                                 </li>
                             </ul>
@@ -58,10 +58,12 @@ const Portfolio = () => {
                         <div>
                             <ul className="p-1">
                                 <li>Registration / Login (validations, autologin, chosen fighter)</li>
-                                <li>Items inventory</li>
+                                <li>Items inventory management</li>
                                 <li>Random items (weapons, armours, potions) generation for gold</li>
-                                <li>See online users and challenge to a fight</li>
-                                <li>Online fighting with gold prizes</li>
+                                <li>Live tracking of online players</li>
+                                <li>Live invitations to play</li>
+                                <li>Live fighting with gold prizes</li>
+                                <li>Timer on players turn during battle</li>
                             </ul>
                         </div>
                     </div>
@@ -86,6 +88,7 @@ const Portfolio = () => {
                             <ul className="p-1">
                                 <li>Website clone to show my abilities to copy designs</li>
                                 <li>My first HTML/CSS assignment (JS added later)</li>
+                                <li>Full of details and animations</li>
                                 <li className="link-light">To see original
                                     <a href="https://preview.themeforest.net/item/ragfood-restaurent-html-template/full_screen_preview/45638604?_ga=2.86321304.168419542.1700460621-1389662263.1700460621"> click here</a>
                                 </li>

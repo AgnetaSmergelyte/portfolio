@@ -284,11 +284,20 @@ input, textarea {
 .toolbar {
   width: 100%;
   background-color: $color-darkest;
+  padding-top: 0.5rem;
   display: flex;
   color: $color-light;
-  flex-direction: column;
   box-sizing: border-box;
   @include box-shadow-bright;
+}
+
+.nav {
+  display: none;
+}
+
+.nav-icon {
+  width: 100%;
+  display: flex;
 }
 
 .menu-item {
@@ -298,24 +307,18 @@ input, textarea {
   transition: 0.3s;
   font-size: 1.1rem;
   padding: 1rem;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  border-bottom: $color-darkest solid 3px;
 
   &:hover {
-    color: $color-bright-main;
-    border-bottom: $color-bright-main solid 2px;
+    border-bottom: $color-bright-second solid 3px;
   }
 }
 
 .active {
   color: $color-bright-main;
-}
-
-.menu-closed {
-  display: none;
-}
-
-.menu-opened {
-  display: flex;
-  flex-direction: column;
 }
 
 .about-text {
@@ -440,56 +443,18 @@ input, textarea {
 }
 
 @media (min-width: 600px) {
-  .btn-toggle {
+  .nav {
+    width: 100%;
+    display: flex;
+  }
+  .nav-icon {
     display: none;
   }
   .project-about {
     grid-template-columns: 200px 1fr;
   }
-  .menu-closed {
-    display: flex;
-  }
-  .menu-opened {
-    flex-direction: row;
-  }
-  .toolbar {
-    background-color: $color-darkest;
-    padding: 10px 0 0;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .menu-item {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    border-bottom: $color-darkest solid 3px;
-
-    &:hover {
-      border-bottom: $color-bright-second solid 3px;
-    }
-  }
-  .menu {
-    width: 100%;
-    display: flex;
-  }
   .mobile-version-album {
     grid-template-columns: 1fr 1fr;
-  }
-}
-
-.btn-toggle > button {
-  padding: 1rem;
-  background-color: $color-darkest;
-  font-size: 2rem;
-  color: $color-light;
-  border: none;
-  cursor: pointer;
-  transition: 0.3s;
-  opacity: 0.7;
-
-  &:hover {
-    opacity: 1;
   }
 }
 

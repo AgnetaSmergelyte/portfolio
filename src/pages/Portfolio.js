@@ -8,7 +8,7 @@ import drumsScreen from "../images/sceenshots/drums.PNG";
 import quotesScreen from "../images/sceenshots/quote.PNG";
 import markdownScreen from "../images/sceenshots/markdown.PNG";
 import oracleScreen from "../images/sceenshots/oracle.PNG";
-import ragFoodScreen from "../images/sceenshots/ragfood.PNG";
+import regFoodScreen from "../images/sceenshots/ragfood.PNG";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEye } from '@fortawesome/free-solid-svg-icons';
@@ -79,10 +79,10 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="project-entry p-1">
-                    <h2>RagFood Website Clone</h2>
+                    <h2>RegFood Website Clone</h2>
                     <div className="project-about">
                         <a href="https://ragfood-clone.vercel.app/">
-                            <img className="project-img" src={ragFoodScreen} alt=""/>
+                            <img className="project-img" src={regFoodScreen} alt=""/>
                         </a>
                         <div>
                             <ul className="p-1">

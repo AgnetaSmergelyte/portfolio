@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '../images/profile-pic.png';
+import profilePic from '../images/profile-pic.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { useNavigate } from "react-router-dom";

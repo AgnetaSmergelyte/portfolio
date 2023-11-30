@@ -35,7 +35,7 @@ const About = () => {
                 </div>
             </div>
             <h2>Technologies</h2>
-            <Technologies techArray={["html", "css", "js", "ts", "react", "reactRouter", "redux", "node", "npm", "express", "socket", "mongoDb", "git", "vite", "bootstrap", "sass"   ]}/>
+            <Technologies techArray={["html", "css", "js", "ts", "react", "reactRouter", "redux", "node", "npm", "express", "socket", "mongoDb", "git", "vite", "bootstrap", "tailwind", "sass"   ]}/>
             <h2>Let's Connect</h2>
             <div className="d-flex gap-2 text-center social">
                 <div className="d-flex f-col gap-1">

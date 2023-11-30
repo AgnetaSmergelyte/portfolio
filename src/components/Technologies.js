@@ -15,6 +15,7 @@ import bootstrapLogo from '../images/technologies/bootstrap.svg';
 import expressJSLogo from '../images/technologies/express-js.png';
 import gitLogo from '../images/technologies/git.png';
 import npmLogo from '../images/technologies/npm.png';
+import tailwindLogo from '../images/technologies/tailwind.png';
 
 const technologies = {
     react: {name: "React", logo: reactLogo},
@@ -32,7 +33,8 @@ const technologies = {
     bootstrap: {name: "Bootstrap", logo: bootstrapLogo},
     express: {name: "Express.js", logo: expressJSLogo},
     git: {name: "Git", logo: gitLogo},
-    npm: {name: "npm", logo: npmLogo}
+    npm: {name: "npm", logo: npmLogo},
+    tailwind: {name: "Tailwind CSS", logo: tailwindLogo}
 }
 
 const Technologies = ({techArray}) => {

@@ -35,7 +35,7 @@ const Contact = () => {
             },
             body: JSON.stringify(letter)
         }
-        fetch(process.env.SEND_EMAIL_API, options)
+        fetch(process.env.REACT_APP_SEND_EMAIL_API, options)
             .then(res => res.json())
             .then(data => {
                 setLoadingMsg(false);

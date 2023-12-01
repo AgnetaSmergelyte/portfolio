@@ -92,7 +92,7 @@ const Portfolio = () => {
                                 <li>My first HTML/CSS assignment (JS added later)</li>
                                 <li>Full of details and animations</li>
                                 <li className="link-light">To see original
-                                    <a href="https://preview.themeforest.net/item/ragfood-restaurent-html-template/full_screen_preview/45638604?_ga=2.86321304.168419542.1700460621-1389662263.1700460621" alt="RegFood design website"> click here</a>
+                                    <a href="https://preview.themeforest.net/item/ragfood-restaurent-html-template/full_screen_preview/45638604?_ga=2.86321304.168419542.1700460621-1389662263.1700460621" alt="RegFood design website">click here</a>
                                 </li>
                             </ul>
                         </div>

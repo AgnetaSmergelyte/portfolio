@@ -428,7 +428,14 @@ input, textarea {
 }
 
 .link-light a {
-  color: $color-bright-main;
+  color: $color-light;
+  text-decoration: underline;
+  margin-left: 5px;
+  transition: 0.3s;
+
+  &:hover {
+    color: #6f93c4;
+  }
 }
 
 @keyframes spin-border {

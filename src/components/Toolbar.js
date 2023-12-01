@@ -7,16 +7,16 @@ const Toolbar = () => {
     return (
         <div className="toolbar">
             <div className="nav">
-                <NavLink className="menu-item" to="/">Home</NavLink>
-                <NavLink className="menu-item" to="/portfolio">My Projects</NavLink>
-                <NavLink className="menu-item" to="/about">About Me</NavLink>
-                <NavLink className="menu-item" to="/contact">Contact</NavLink>
+                <NavLink className="menu-item" to="/" alt="Home">Home</NavLink>
+                <NavLink className="menu-item" to="/portfolio" alt="My Projects">My Projects</NavLink>
+                <NavLink className="menu-item" to="/about" alt="About Me">About Me</NavLink>
+                <NavLink className="menu-item" to="/contact" alt="Contact">Contact</NavLink>
             </div>
             <div className="nav-icon">
-                <NavLink className="menu-item" to="/"><FontAwesomeIcon icon={faHouse}/></NavLink>
-                <NavLink className="menu-item" to="/portfolio"><FontAwesomeIcon icon={faBriefcase}/></NavLink>
-                <NavLink className="menu-item" to="/about"><FontAwesomeIcon icon={faUser}/></NavLink>
-                <NavLink className="menu-item" to="/contact"><FontAwesomeIcon icon={faEnvelope}/></NavLink>
+                <NavLink className="menu-item" to="/" alt="Home"><FontAwesomeIcon icon={faHouse}/></NavLink>
+                <NavLink className="menu-item" to="/portfolio" alt="My Projects"><FontAwesomeIcon icon={faBriefcase}/></NavLink>
+                <NavLink className="menu-item" to="/about" alt="About Me"><FontAwesomeIcon icon={faUser}/></NavLink>
+                <NavLink className="menu-item" to="/contact" alt="Contact"><FontAwesomeIcon icon={faEnvelope}/></NavLink>
             </div>
         </div>
     );

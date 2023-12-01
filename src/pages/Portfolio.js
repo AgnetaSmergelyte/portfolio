@@ -1,14 +1,14 @@
 import React, {useEffect} from 'react';
 import Technologies from "../components/Technologies";
-import socialScreen from "../images/sceenshots/social.PNG";
-import arenaScreen from "../images/sceenshots/arena.png";
+import socialScreen from "../images/sceenshots/social.jpg";
+import arenaScreen from "../images/sceenshots/arena.jpg";
 import clockScreen from "../images/sceenshots/clock.PNG";
-import calculatorScreen from "../images/sceenshots/calculator.PNG";
+import calculatorScreen from "../images/sceenshots/calculator.jpg";
 import drumsScreen from "../images/sceenshots/drums.PNG";
 import quotesScreen from "../images/sceenshots/quote.PNG";
 import markdownScreen from "../images/sceenshots/markdown.PNG";
-import oracleScreen from "../images/sceenshots/oracle.PNG";
-import regFoodScreen from "../images/sceenshots/ragfood.PNG";
+import oracleScreen from "../images/sceenshots/oracle.jpg";
+import regFoodScreen from "../images/sceenshots/ragfood.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEye } from '@fortawesome/free-solid-svg-icons';
@@ -26,7 +26,7 @@ const Portfolio = () => {
                     <h2>Social Media App</h2>
                     <div className="project-about">
                         <div onClick={() => nav("/portfolio/social-media-app")}>
-                            <img className="project-img" src={socialScreen} alt=""/>
+                            <img className="project-img" src={socialScreen} alt="social media app screen"/>
                         </div>
                         <div>
                             <ul className="p-1">
@@ -54,7 +54,7 @@ const Portfolio = () => {
                 <div className="project-entry p-1">
                     <h2>Fight Arena Game</h2>
                     <div className="project-about">
-                        <div onClick={() => nav("/portfolio/arena")}><img className="project-img" src={arenaScreen} alt=""/></div>
+                        <div onClick={() => nav("/portfolio/arena")}><img className="project-img" src={arenaScreen} alt="fight arena app screen"/></div>
                         <div>
                             <ul className="p-1">
                                 <li>Registration / Login (validations, autologin, chosen fighter)</li>
@@ -82,7 +82,7 @@ const Portfolio = () => {
                     <h2>RegFood Website Clone</h2>
                     <div className="project-about">
                         <a href="https://ragfood-clone.vercel.app/">
-                            <img className="project-img" src={regFoodScreen} alt=""/>
+                            <img className="project-img" src={regFoodScreen} alt="Regfood screen"/>
                         </a>
                         <div>
                             <ul className="p-1">
@@ -90,7 +90,7 @@ const Portfolio = () => {
                                 <li>My first HTML/CSS assignment (JS added later)</li>
                                 <li>Full of details and animations</li>
                                 <li className="link-light">To see original
-                                    <a href="https://preview.themeforest.net/item/ragfood-restaurent-html-template/full_screen_preview/45638604?_ga=2.86321304.168419542.1700460621-1389662263.1700460621"> click here</a>
+                                    <a href="https://preview.themeforest.net/item/ragfood-restaurent-html-template/full_screen_preview/45638604?_ga=2.86321304.168419542.1700460621-1389662263.1700460621" alt="RegFood design website"> click here</a>
                                 </li>
                             </ul>
                         </div>
@@ -109,7 +109,7 @@ const Portfolio = () => {
                     <h2>The Oracle</h2>
                     <div className="project-about">
                         <a href="https://knowthetruth.vercel.app/">
-                            <img className="project-img" src={oracleScreen} alt=""/>
+                            <img className="project-img" src={oracleScreen} alt="Oracle Screen"/>
                         </a>
                         <div>
                             <ul className="p-1">
@@ -132,7 +132,7 @@ const Portfolio = () => {
                     <h2>25 + 5 Clock</h2>
                     <div className="project-about">
                         <a href="https://agnetasmergelyte.github.io/25plus5clock/">
-                            <img className="project-img" src={clockScreen} alt=""/>
+                            <img className="project-img" src={clockScreen} alt="25+5 clock screen"/>
                         </a>
                         <div>
                             <ul className="p-1">
@@ -157,7 +157,7 @@ const Portfolio = () => {
                     <h2>Markdown Previewer</h2>
                     <div className="project-about">
                         <a href="https://agnetasmergelyte.github.io/markdown-previewer/">
-                            <img  className="project-img" src={markdownScreen} alt=""/>
+                            <img  className="project-img" src={markdownScreen} alt="Markdown previewer screen"/>
                         </a>
                         <div>
                             <ul className="p-1">
@@ -182,7 +182,7 @@ const Portfolio = () => {
                     <h2>Random Quote Machine</h2>
                     <div className="project-about">
                         <a href="https://agnetasmergelyte.github.io/random-quote-machine/">
-                            <img className="project-img" src={quotesScreen} alt=""/>
+                            <img className="project-img" src={quotesScreen} alt="Random Quote Machine screen"/>
                         </a>
                         <div>
                             <ul className="p-1">
@@ -206,7 +206,7 @@ const Portfolio = () => {
                     <h2>Drum Machine</h2>
                     <div className="project-about">
                         <a href="https://agnetasmergelyte.github.io/drum-machine/">
-                            <img className="project-img" src={drumsScreen} alt=""/>
+                            <img className="project-img" src={drumsScreen} alt="Drum Machine screen"/>
                         </a>
                         <div>
                             <ul className="p-1">
@@ -229,7 +229,7 @@ const Portfolio = () => {
                     <h2>Calculator</h2>
                     <div className="project-about">
                         <a href="https://agnetasmergelyte.github.io/calculator/">
-                            <img className="project-img" src={calculatorScreen} alt=""/>
+                            <img className="project-img" src={calculatorScreen} alt="Calculator screen"/>
                         </a>
                         <div>
                             <ul className="p-1">

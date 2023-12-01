@@ -39,19 +39,19 @@ const SocialMediaApp = () => {
                 </div>
                 <h2 className="text-center mt-1 mb-1">Mobile Version</h2>
                 <div className="mobile-version-album">
-                    <img src="/images/media-app/img1.png" alt=""/>
-                    <img src="/images/media-app/img2.png" alt=""/>
-                    <img src="/images/media-app/img3.png" alt=""/>
-                    <img src="/images/media-app/img4.png" alt=""/>
-                    <img src="/images/media-app/img5.png" alt=""/>
-                    <img src="/images/media-app/img6.png" alt=""/>
+                    <img src="/images/media-app/img1.png" alt="Mobile version screen"/>
+                    <img src="/images/media-app/img2.png" alt="Mobile version screen"/>
+                    <img src="/images/media-app/img3.png" alt="Mobile version screen"/>
+                    <img src="/images/media-app/img4.png" alt="Mobile version screen"/>
+                    <img src="/images/media-app/img5.png" alt="Mobile version screen"/>
+                    <img src="/images/media-app/img6.png" alt="Mobile version screen"/>
                 </div>
                 <h2 className="text-center mt-1 mb-1">Desktop Version</h2>
                 <div className="d-flex f-col gap-1">
-                    <img src="/images/media-app/img7.png" alt=""/>
-                    <img src="/images/media-app/img8.png" alt=""/>
-                    <img src="/images/media-app/img9.png" alt=""/>
-                    <img src="/images/media-app/img10.png" alt=""/>
+                    <img src="/images/media-app/img7.png" alt="Desktop version screen"/>
+                    <img src="/images/media-app/img8.png" alt="Desktop version screen"/>
+                    <img src="/images/media-app/img9.png" alt="Desktop version screen"/>
+                    <img src="/images/media-app/img10.png" alt="Desktop version screen"/>
                 </div>
             </div>
             <div className="go-back" onClick={() => nav("/portfolio")}>

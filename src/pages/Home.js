@@ -16,8 +16,8 @@ const Home = () => {
                 <h2>Web Developer</h2>
                 <h1>Agneta Šmergelytė</h1>
                 <div className="d-flex gap-2 j-center social">
-                    <a href="https://github.com/AgnetaSmergelyte"><FontAwesomeIcon icon={faGithub} /></a>
-                    <a href="https://www.linkedin.com/in/agnetasmergelyte"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    <a href="https://github.com/AgnetaSmergelyte"><FontAwesomeIcon icon={faGithub} alt="github" /></a>
+                    <a href="https://www.linkedin.com/in/agnetasmergelyte"><FontAwesomeIcon icon={faLinkedin} alt="linkedin" /></a>
                 </div>
             </div>
             <button className="btn-main" onClick={() => nav("/contact")}>Contact Me</button>

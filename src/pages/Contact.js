@@ -70,8 +70,8 @@ const Contact = () => {
                 <button className="btn-main" onClick={sendMessage}>Send</button>
                 <div className="d-flex gap-1 a-center social mt-1">
                     <h2><em>Socials:</em></h2>
-                    <a href="https://www.facebook.com/spegy"><FontAwesomeIcon icon={faFacebookSquare} /></a>
-                    <a href="https://www.linkedin.com/in/agnetasmergelyte"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    <a href="https://www.facebook.com/spegy"><FontAwesomeIcon icon={faFacebookSquare} alt="facebook" /></a>
+                    <a href="https://www.linkedin.com/in/agnetasmergelyte"><FontAwesomeIcon icon={faLinkedin} alt="linkedin" /></a>
                 </div>
             </div>
         </div>

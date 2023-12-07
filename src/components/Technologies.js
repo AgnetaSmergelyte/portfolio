@@ -10,12 +10,14 @@ import sassLogo from '../images/technologies/sass.svg';
 import jsLogo from '../images/technologies/JS.svg';
 import tsLogo from '../images/technologies/ts.svg';
 import viteLogo from '../images/technologies/vitejs.svg';
-import socketLogo from '../images/technologies/socket-io.png';
+import socketLogo from '../images/technologies/socket-io.svg';
 import bootstrapLogo from '../images/technologies/bootstrap.svg';
 import expressJSLogo from '../images/technologies/express-js.svg';
 import gitLogo from '../images/technologies/git.svg';
 import npmLogo from '../images/technologies/npm.svg';
 import tailwindLogo from '../images/technologies/tailwind.svg';
+import angularLogo from '../images/technologies/angular.svg';
+import nextLogo from '../images/technologies/next.svg';
 
 const technologies = {
     react: {name: "React", logo: reactLogo},
@@ -34,7 +36,9 @@ const technologies = {
     express: {name: "Express.js", logo: expressJSLogo},
     git: {name: "Git", logo: gitLogo},
     npm: {name: "npm", logo: npmLogo},
-    tailwind: {name: "Tailwind CSS", logo: tailwindLogo}
+    tailwind: {name: "Tailwind CSS", logo: tailwindLogo},
+    angular: {name: "Angular", logo: angularLogo},
+    next: {name: "Next.js", logo: nextLogo},
 }
 
 const Technologies = ({techArray}) => {

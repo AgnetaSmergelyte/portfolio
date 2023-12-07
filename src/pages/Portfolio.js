@@ -6,7 +6,7 @@ import clockScreen from "../images/sceenshots/clock.PNG";
 import calculatorScreen from "../images/sceenshots/calculator.jpg";
 import drumsScreen from "../images/sceenshots/drums.PNG";
 import quotesScreen from "../images/sceenshots/quote.PNG";
-import markdownScreen from "../images/sceenshots/markdown.PNG";
+import todoScreen from "../images/sceenshots/todo.PNG";
 import oracleScreen from "../images/sceenshots/oracle.jpg";
 import regFoodScreen from "../images/sceenshots/ragfood.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -131,6 +131,31 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="project-entry p-1">
+                    <h2>To-Do List</h2>
+                    <div className="project-about">
+                        <a href="https://todo-app-spegys-projects.vercel.app/" alt="View Live">
+                            <img  className="project-img" src={todoScreen} alt="Todo app screen"/>
+                        </a>
+                        <div>
+                            <ul className="p-1">
+                                <li>Online To-Do List</li>
+                                <li>Add, edit, delete items in the list</li>
+                                <li>Mark as done and cross out items from the list</li>
+                                <li>Single Page Application with Angular</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <Technologies techArray={["ts", "angular", "css"]}/>
+                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
+                        <a className="btn-link" href="https://todo-app-spegys-projects.vercel.app/" alt="View Live">
+                            <FontAwesomeIcon icon={faEye} /><span>View Live</span>
+                        </a>
+                        <a className="btn-link" href="https://github.com/AgnetaSmergelyte/todo-app" alt="View Code">
+                            <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
+                        </a>
+                    </div>
+                </div>
+                <div className="project-entry p-1">
                     <h2>25 + 5 Clock</h2>
                     <div className="project-about">
                         <a href="https://agnetasmergelyte.github.io/25plus5clock/" alt="View Live">
@@ -151,31 +176,6 @@ const Portfolio = () => {
                             <FontAwesomeIcon icon={faEye} /><span>View Live</span>
                         </a>
                         <a className="btn-link" href="https://github.com/AgnetaSmergelyte/25plus5clock" alt="View Code">
-                            <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
-                        </a>
-                    </div>
-                </div>
-                <div className="project-entry p-1">
-                    <h2>Markdown Previewer</h2>
-                    <div className="project-about">
-                        <a href="https://agnetasmergelyte.github.io/markdown-previewer/" alt="View Live">
-                            <img  className="project-img" src={markdownScreen} alt="Markdown previewer screen"/>
-                        </a>
-                        <div>
-                            <ul className="p-1">
-                                <li>Online markdown editor</li>
-                                <li>Preview window updates real time with markdown syntax</li>
-                                <li>The editor has some predefined input on page load</li>
-                                <li>Single Page Application with React</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <Technologies techArray={["js", "react", "sass"]}/>
-                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
-                        <a className="btn-link" href="https://agnetasmergelyte.github.io/markdown-previewer/" alt="View Live">
-                            <FontAwesomeIcon icon={faEye} /><span>View Live</span>
-                        </a>
-                        <a className="btn-link" href="https://github.com/AgnetaSmergelyte/markdown-previewer" alt="View Code">
                             <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
                         </a>
                     </div>

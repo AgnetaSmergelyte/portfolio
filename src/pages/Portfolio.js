@@ -81,6 +81,31 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="project-entry p-1">
+                    <h2>To-Do List</h2>
+                    <div className="project-about">
+                        <a href="https://todo-app-spegys-projects.vercel.app/" alt="View Live">
+                            <img  className="project-img" src={todoScreen} alt="Todo app screen"/>
+                        </a>
+                        <div>
+                            <ul className="p-1">
+                                <li>Online To-Do List</li>
+                                <li>Add, edit, delete items in the list</li>
+                                <li>Mark as done and cross out items from the list</li>
+                                <li>Single Page Application with Angular</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <Technologies techArray={["ts", "angular", "css"]}/>
+                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
+                        <a className="btn-link" href="https://todo-app-spegys-projects.vercel.app/" alt="View Live">
+                            <FontAwesomeIcon icon={faEye} /><span>View Live</span>
+                        </a>
+                        <a className="btn-link" href="https://github.com/AgnetaSmergelyte/todo-app" alt="View Code">
+                            <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
+                        </a>
+                    </div>
+                </div>
+                <div className="project-entry p-1">
                     <h2>RegFood Website Clone</h2>
                     <div className="project-about">
                         <a href="https://ragfood-clone.vercel.app/" alt="View Live">
@@ -126,31 +151,6 @@ const Portfolio = () => {
                             <FontAwesomeIcon icon={faEye} /><span>View Live</span>
                         </a>
                         <a className="btn-link" href="https://github.com/AgnetaSmergelyte/oracle" alt="View Code">
-                            <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
-                        </a>
-                    </div>
-                </div>
-                <div className="project-entry p-1">
-                    <h2>To-Do List</h2>
-                    <div className="project-about">
-                        <a href="https://todo-app-spegys-projects.vercel.app/" alt="View Live">
-                            <img  className="project-img" src={todoScreen} alt="Todo app screen"/>
-                        </a>
-                        <div>
-                            <ul className="p-1">
-                                <li>Online To-Do List</li>
-                                <li>Add, edit, delete items in the list</li>
-                                <li>Mark as done and cross out items from the list</li>
-                                <li>Single Page Application with Angular</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <Technologies techArray={["ts", "angular", "css"]}/>
-                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
-                        <a className="btn-link" href="https://todo-app-spegys-projects.vercel.app/" alt="View Live">
-                            <FontAwesomeIcon icon={faEye} /><span>View Live</span>
-                        </a>
-                        <a className="btn-link" href="https://github.com/AgnetaSmergelyte/todo-app" alt="View Code">
                             <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
                         </a>
                     </div>

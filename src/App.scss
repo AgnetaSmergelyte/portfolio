@@ -515,3 +515,18 @@ input, textarea {
     grid-template-columns: 200px 1fr;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .btn-send {
+    background: linear-gradient(to right, #ffc06c, $color-bright-main);
+  }
+
+  .color-changing-text {
+    background: linear-gradient(to right, #ffc06c, $color-bright-main);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+  }
+}
+

@@ -468,5 +468,17 @@ input, textarea {
     grid-template-columns: 200px 1fr;
   }
 }
+@media (prefers-color-scheme: dark) {
+  .btn-send {
+    background: linear-gradient(to right, #ffc06c, #A05344);
+  }
+  .color-changing-text {
+    background: linear-gradient(to right, #ffc06c, #A05344);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+  }
+}
 
 /*# sourceMappingURL=App.css.map */

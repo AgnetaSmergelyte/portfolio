@@ -56,7 +56,7 @@ const Contact = () => {
     return (
         <div className="d-flex f-col a-center p-1">
             <div className="d-flex f-col gap-1 contact-form">
-                <h1 className="text-center">Feel free to drop me a message <em>or let's be social!</em></h1>
+                <h1 className="text-center">Feel free to drop me a message or <em className="color-changing-text">let's be social!</em></h1>
                 <input type="text" placeholder="Your email address" ref={emailRef}/>
                 <textarea placeholder="Message" rows="5" ref={messageRef}/>
                 {errorMsg && <p className="text-center text-red"><FontAwesomeIcon icon={faExclamationTriangle} /> {errorMsg}</p>}
@@ -67,9 +67,9 @@ const Contact = () => {
                         <div>Sending...</div>
                     </div>
                 }
-                <button className="btn-main" onClick={sendMessage}>Send</button>
+                <button className="btn-send" onClick={sendMessage}>Send</button>
                 <div className="d-flex gap-1 a-center social mt-1">
-                    <h2><em>Socials:</em></h2>
+                    <h2><em className="color-changing-text">Socials:</em></h2>
                     <a href="https://www.facebook.com/spegy"><FontAwesomeIcon icon={faFacebookSquare} alt="facebook" /></a>
                     <a href="https://www.linkedin.com/in/agnetasmergelyte"><FontAwesomeIcon icon={faLinkedin} alt="linkedin" /></a>
                 </div>

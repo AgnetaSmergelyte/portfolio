@@ -480,5 +480,14 @@ input, textarea {
     display: inline-block;
   }
 }
+@media (prefers-color-scheme: dark) and (min-width: 600px) {
+  .active {
+    font-weight: 600;
+    background: linear-gradient(to right, #ffc06c, #A05344);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}
 
 /*# sourceMappingURL=App.css.map */

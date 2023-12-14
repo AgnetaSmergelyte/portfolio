@@ -530,3 +530,13 @@ input, textarea {
   }
 }
 
+@media (prefers-color-scheme: dark) and (min-width: 600px) {
+  .active {
+    font-weight: 600;
+    background: linear-gradient(to right, #ffc06c, $color-bright-main);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}
+

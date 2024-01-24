@@ -9,15 +9,12 @@ const About = () => {
         <div className="p-1 d-flex f-col a-center gap-2">
             <div className="about-text">
                 <h1 className="text-center">About Me</h1>
-                <p> I'm a passionate, goal-oriented individual and aspiring Web Developer.
-                    With a master's degree in mathematics, I bring a deep analytical mindset to the world of coding. My
-                    mathematical background has equipped me with problem-solving skills and a knack for approaching
-                    complex
-                    issues with creativity and precision. Recent training at CodeAcademy has ignited my passion for
-                    coding,
-                    specifically in the realm of Front-End Development. I'm eager to apply my mathematical acumen to
-                    create
-                    elegant and functional user interfaces.</p>
+                <p> I'm a passionate and goal-oriented Web Developer with a master's degree in mathematics. My deep
+                    analytical mindset, honed through my mathematical background, equips me with problem-solving skills
+                    and a knack for approaching complex issues with creativity and precision. With several months of
+                    freelancing experience, I've successfully translated my passion for coding, gained through recent
+                    training at CodeAcademy, into real-world projects. Specializing in Front-End Development, I eagerly
+                    apply my mathematical acumen to create elegant and functional user interfaces.</p>
             </div>
             <h2>Traits</h2>
             <div className="d-flex gap-1 text-center">
@@ -35,7 +32,8 @@ const About = () => {
                 </div>
             </div>
             <h2>Technologies</h2>
-            <Technologies techArray={["html", "css", "js", "ts", "react", "reactRouter", "next", "angular", "redux", "node", "npm", "express", "socket", "mongoDb", "git", "vite", "bootstrap", "tailwind", "sass"   ]}/>
+            <Technologies
+                techArray={["html", "css", "js", "ts", "react", "reactRouter", "next", "angular", "redux", "node", "npm", "express", "socket", "mongoDb", "git", "vite", "bootstrap", "tailwind", "sass"]}/>
             <h2>Let's Connect</h2>
             <div className="d-flex gap-2 text-center social">
                 <div className="d-flex f-col gap-1">

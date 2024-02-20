@@ -4,7 +4,6 @@ import socialScreen from "../images/sceenshots/social.jpg";
 import arenaScreen from "../images/sceenshots/arena.jpg";
 import clockScreen from "../images/sceenshots/clock.PNG";
 import calculatorScreen from "../images/sceenshots/calculator.jpg";
-import drumsScreen from "../images/sceenshots/drums.PNG";
 import quotesScreen from "../images/sceenshots/quote.PNG";
 import todoScreen from "../images/sceenshots/todo.PNG";
 import oracleScreen from "../images/sceenshots/oracle.jpg";
@@ -200,29 +199,6 @@ const Portfolio = () => {
                             <FontAwesomeIcon icon={faEye} /><span>View Live</span>
                         </a>
                         <a className="btn-link" href="https://github.com/AgnetaSmergelyte/random-quote-machine" alt="View Code">
-                            <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
-                        </a>
-                    </div>
-                </div>
-                <div className="project-entry p-1">
-                    <h2>Drum Machine</h2>
-                    <div className="project-about">
-                        <a href="https://agnetasmergelyte.github.io/drum-machine/" alt="View Live">
-                            <img className="project-img" src={drumsScreen} alt="Drum Machine screen"/>
-                        </a>
-                        <div>
-                            <ul className="p-1">
-                                <li>Play music with keyboard or pressing buttons with mouse</li>
-                                <li>Single Page Application with React</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <Technologies techArray={["js", "react", "sass"]}/>
-                    <div className="d-flex f-wrap j-center gap-1 mt-1 mb-05">
-                        <a className="btn-link" href="https://agnetasmergelyte.github.io/drum-machine/" alt="View Live">
-                            <FontAwesomeIcon icon={faEye} /><span>View Live</span>
-                        </a>
-                        <a className="btn-link" href="https://github.com/AgnetaSmergelyte/drum-machine" alt="View Code">
                             <FontAwesomeIcon icon={faGithub} /><span>View Code</span>
                         </a>
                     </div>

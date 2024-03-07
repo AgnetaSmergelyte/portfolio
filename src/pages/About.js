@@ -9,12 +9,9 @@ const About = () => {
         <div className="p-1 d-flex f-col a-center gap-2">
             <div className="about-text">
                 <h1 className="text-center">About Me</h1>
-                <p> I'm a passionate and goal-oriented Web Developer with a master's degree in mathematics. My deep
-                    analytical mindset, honed through my mathematical background, equips me with problem-solving skills
-                    and a knack for approaching complex issues with creativity and precision. With several months of
-                    freelancing experience, I've successfully translated my passion for coding, gained through recent
-                    training at CodeAcademy, into real-world projects. Specializing in Front-End Development, I eagerly
-                    apply my mathematical acumen to create elegant and functional user interfaces.</p>
+                <p> 
+                    As a dedicated Web Developer with a master's degree in mathematics, I harness a profound analytical mindset to navigate challenges with creativity and precision. My extensive mathematical background sharpens my problem-solving skills and fosters a distinctive approach to addressing complex issues. By blending analytical thinking with imaginativeness, I specialize in creating elegant and functional user interfaces, ensuring a seamless and engaging user experience.
+                </p>
             </div>
             <h2>Traits</h2>
             <div className="d-flex gap-1 text-center">

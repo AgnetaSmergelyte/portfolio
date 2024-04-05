@@ -18,6 +18,9 @@ import npmLogo from '../images/technologies/npm.svg';
 import tailwindLogo from '../images/technologies/tailwind.svg';
 import angularLogo from '../images/technologies/angular.svg';
 import nextLogo from '../images/technologies/next.svg';
+import angularMaterialLogo from '../images/technologies/material.svg';
+import mySqlLogo from '../images/technologies/mysql.svg';
+
 
 const technologies = {
     react: {name: "React", logo: reactLogo},
@@ -39,6 +42,8 @@ const technologies = {
     tailwind: {name: "Tailwind CSS", logo: tailwindLogo},
     angular: {name: "Angular", logo: angularLogo},
     next: {name: "Next.js", logo: nextLogo},
+    material: {name: "Angular Material", logo: angularMaterialLogo},
+    mysql: {name: "MySQL", logo: mySqlLogo}
 }
 
 const Technologies = ({techArray}) => {

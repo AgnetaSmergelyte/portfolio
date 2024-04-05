@@ -10,7 +10,7 @@ const About = () => {
             <div className="about-text">
                 <h1 className="text-center">About Me</h1>
                 <p> 
-                    As a dedicated Web Developer with a master's degree in mathematics, I harness a profound analytical mindset to navigate challenges with creativity and precision. My extensive mathematical background sharpens my problem-solving skills and fosters a distinctive approach to addressing complex issues. By blending analytical thinking with imaginativeness, I specialize in creating elegant and functional user interfaces, ensuring a seamless and engaging user experience.
+                     With a passion for web development and a master's degree in mathematics, I bring a unique blend of analytical rigor and creative problem-solving to every project. Leveraging my expertise in JavaScript for both frontend and backend development, I tackle complex challenges with precision and innovation. My deep understanding of mathematics enriches my approach, allowing me to craft elegant and user-friendly interfaces that prioritize functionality and aesthetic appeal. By seamlessly integrating analytical thinking with imaginative design, I strive to deliver exceptional user experiences that leave a lasting impression.
                 </p>
             </div>
             <h2>Traits</h2>
@@ -30,7 +30,7 @@ const About = () => {
             </div>
             <h2>Technologies</h2>
             <Technologies
-                techArray={["html", "css", "js", "ts", "react", "reactRouter", "next", "angular", "redux", "node", "npm", "express", "socket", "mongoDb", "git", "vite", "bootstrap", "tailwind", "sass"]}/>
+                techArray={["html", "css", "js", "ts", "react", "reactRouter", "redux", "angular", "material", "next", "node", "npm", "express", "socket", "mongoDb", "mysql", "git", "bootstrap", "tailwind", "sass"]}/>
             <h2>Let's Connect</h2>
             <div className="d-flex gap-2 text-center social">
                 <div className="d-flex f-col gap-1">

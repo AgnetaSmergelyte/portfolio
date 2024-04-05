@@ -11,7 +11,7 @@ import regFoodScreen from "../images/sceenshots/ragfood.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEye } from '@fortawesome/free-solid-svg-icons';
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Portfolio = () => {
     const nav = useNavigate();

@@ -1,8 +1,8 @@
-$color-darkest: #331D2C;
-$color-dark: #3F2E3E;
-$color-medium: #A78295;
-$color-light: #EFE1D1;
-$color-bright-main: #A05344;
+$color-darkest: #331d2c;
+$color-dark: #3f2e3e;
+$color-medium: #a78295;
+$color-light: #efe1d1;
+$color-bright-main: #a05344;
 $color-bright-second: #734046;
 
 @mixin box-shadow-bright {
@@ -109,7 +109,8 @@ body {
   color: $color-light;
 }
 
-input, textarea {
+input,
+textarea {
   border-radius: 5px;
   padding: 1rem;
   font-family: sans-serif;
@@ -124,7 +125,8 @@ input, textarea {
   overflow: hidden;
   border-radius: 50%;
   border: 10px solid;
-  border-color: rgba(239, 225, 209, 0) $color-bright-main $color-bright-main $color-bright-main;
+  border-color: rgba(239, 225, 209, 0) $color-bright-main $color-bright-main
+    $color-bright-main;
   animation: spin-border linear 20s infinite;
 
   & > img {
@@ -164,7 +166,11 @@ input, textarea {
   transition: all 0.3s ease;
 
   &:hover {
-    background: linear-gradient(to right, $color-bright-main, $color-bright-second);
+    background: linear-gradient(
+      to right,
+      $color-bright-main,
+      $color-bright-second
+    );
   }
 }
 
@@ -183,7 +189,12 @@ input, textarea {
   color: $color-darkest;
 
   &:hover {
-    background: linear-gradient(to right, $color-bright-main, #ffc06c, $color-bright-main);
+    background: linear-gradient(
+      to right,
+      $color-bright-main,
+      #ffc06c,
+      $color-bright-main
+    );
   }
 }
 
@@ -204,7 +215,8 @@ input, textarea {
   width: 500px;
   max-width: 95vw;
 
-  h1, h2 {
+  h1,
+  h2 {
     margin: 1rem 0;
     font-weight: normal;
   }
@@ -275,6 +287,9 @@ input, textarea {
   grid-template-columns: 1fr;
   gap: 1rem;
 
+  p {
+    padding-bottom: 10px;
+  }
 }
 
 .project-img {
@@ -441,7 +456,6 @@ input, textarea {
 .link-light a {
   color: $color-light;
   text-decoration: underline;
-  margin-left: 5px;
   transition: 0.3s;
 
   &:hover {
@@ -480,6 +494,10 @@ input, textarea {
   }
   .project-about {
     grid-template-columns: 200px 1fr;
+
+    p {
+      padding: 10px 0 0;
+    }
   }
   .mobile-version-album {
     grid-template-columns: 1fr 1fr;
@@ -539,4 +557,3 @@ input, textarea {
     color: transparent;
   }
 }
-

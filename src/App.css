@@ -86,11 +86,12 @@
 }
 
 body {
-  background-color: #331D2C;
-  color: #EFE1D1;
+  background-color: #331d2c;
+  color: #efe1d1;
 }
 
-input, textarea {
+input,
+textarea {
   border-radius: 5px;
   padding: 1rem;
   font-family: sans-serif;
@@ -105,9 +106,10 @@ input, textarea {
   overflow: hidden;
   border-radius: 50%;
   border: 10px solid;
-  border-color: rgba(239, 225, 209, 0) #A05344 #A05344 #A05344;
+  border-color: rgba(239, 225, 209, 0) #a05344 #a05344 #a05344;
   animation: spin-border linear 20s infinite;
 }
+
 .circle-img > img {
   width: 100%;
   animation: spin-image linear 20s infinite;
@@ -116,47 +118,51 @@ input, textarea {
 .info h1 {
   font-size: 3rem;
 }
+
 .info h2 {
   font-size: 2rem;
 }
 
 .social a {
   font-size: 2.5rem;
-  color: #EFE1D1;
+  color: #efe1d1;
   transition: 0.3s;
 }
+
 .social a:hover {
-  color: #A05344;
+  color: #a05344;
 }
 
 .btn-main, .btn-link, .btn-send, .btn-secondary {
   cursor: pointer;
-  border: #EFE1D1 solid 1px;
+  border: #efe1d1 solid 1px;
   border-radius: 30px;
   padding: 1rem 2rem;
-  background-color: #331D2C;
-  color: #EFE1D1;
+  background-color: #331d2c;
+  color: #efe1d1;
   font-size: 1.1rem;
   transition: all 0.3s ease;
 }
+
 .btn-main:hover, .btn-link:hover, .btn-send:hover, .btn-secondary:hover {
-  background: linear-gradient(to right, #A05344, #734046);
+  background: linear-gradient(to right, #a05344, #734046);
 }
 
 .btn-secondary {
   padding: 0.5rem 1rem;
-  background-color: #A05344;
+  background-color: #a05344;
   border-radius: 5px;
   border: none;
 }
 
 .btn-send {
   border: none;
-  background: linear-gradient(to right, #ffc06c, #A05344);
-  color: #331D2C;
+  background: linear-gradient(to right, #ffc06c, #a05344);
+  color: #331d2c;
 }
+
 .btn-send:hover {
-  background: linear-gradient(to right, #A05344, #ffc06c, #A05344);
+  background: linear-gradient(to right, #a05344, #ffc06c, #a05344);
 }
 
 .btn-link {
@@ -168,6 +174,7 @@ input, textarea {
   -moz-box-shadow: 0px 0px 5px 1px rgba(167, 130, 149, 0.75);
   border: none;
 }
+
 .btn-link span {
   margin-left: 0.5rem;
 }
@@ -176,10 +183,13 @@ input, textarea {
   width: 500px;
   max-width: 95vw;
 }
-.contact-form h1, .contact-form h2 {
+
+.contact-form h1,
+.contact-form h2 {
   margin: 1rem 0;
   font-weight: normal;
 }
+
 .contact-form button {
   border-radius: 5px;
 }
@@ -187,9 +197,11 @@ input, textarea {
 .tech-icon {
   position: relative;
 }
+
 .tech-icon > img {
   height: 50px;
 }
+
 .tech-icon .name {
   position: absolute;
   height: 100%;
@@ -203,12 +215,14 @@ input, textarea {
   text-align: center;
   z-index: 2;
 }
+
 .tech-icon .name > div {
   background-color: rgba(63, 46, 62, 0.8);
   padding: 3px;
   border-radius: 5px;
-  color: #EFE1D1;
+  color: #efe1d1;
 }
+
 .tech-icon .name:hover {
   opacity: 1;
 }
@@ -216,7 +230,7 @@ input, textarea {
 .project-entry {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 5px;
-  color: #EFE1D1;
+  color: #efe1d1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -225,12 +239,14 @@ input, textarea {
   -webkit-box-shadow: 0px 0px 5px 1px rgba(167, 130, 149, 0.75);
   -moz-box-shadow: 0px 0px 5px 1px rgba(167, 130, 149, 0.75);
 }
+
 .project-entry h2 {
   text-align: center;
   font-size: 1.8rem;
   line-height: 2.1rem;
   margin-top: 0.2rem;
 }
+
 .project-entry a {
   text-decoration: none;
 }
@@ -242,11 +258,15 @@ input, textarea {
   gap: 1rem;
 }
 
+.project-about p {
+  padding-bottom: 10px;
+}
+
 .project-img {
   cursor: pointer;
   margin-top: 1rem;
   width: 100%;
-  border: #3F2E3E solid 1px;
+  border: #3f2e3e solid 1px;
   border-radius: 3px;
 }
 
@@ -260,10 +280,10 @@ input, textarea {
 
 .toolbar {
   width: 100%;
-  background-color: #331D2C;
+  background-color: #331d2c;
   padding-top: 0.5rem;
   display: flex;
-  color: #EFE1D1;
+  color: #efe1d1;
   box-sizing: border-box;
   box-shadow: 0px 0px 10px 3px rgba(160, 83, 68, 0.75);
   -webkit-box-shadow: 0px 0px 10px 3px rgba(160, 83, 68, 0.75);
@@ -280,17 +300,18 @@ input, textarea {
 }
 
 .menu-item {
-  color: #EFE1D1;
+  color: #efe1d1;
   text-decoration: none;
-  border-bottom: #3F2E3E solid 2px;
+  border-bottom: #3f2e3e solid 2px;
   transition: 0.3s;
   font-size: 1.1rem;
   padding: 1rem;
   flex: 1;
   display: flex;
   justify-content: center;
-  border-bottom: #331D2C solid 3px;
+  border-bottom: #331d2c solid 3px;
 }
+
 .menu-item:hover {
   border-bottom: #734046 solid 3px;
 }
@@ -305,6 +326,7 @@ input, textarea {
   text-align: center;
   line-height: 1.5rem;
 }
+
 .about-text h1 {
   margin: 2rem 0;
 }
@@ -317,9 +339,11 @@ input, textarea {
   text-decoration: none;
   gap: 0.5rem;
 }
+
 .social-link svg {
   font-size: 3.5rem;
 }
+
 .social-link b {
   font-size: 1rem;
 }
@@ -342,6 +366,7 @@ input, textarea {
 .project-entry-full {
   max-width: 950px;
 }
+
 .project-entry-full img {
   width: 100%;
 }
@@ -351,6 +376,7 @@ input, textarea {
   grid-template-columns: 1fr;
   gap: 1rem;
 }
+
 .mobile-version-album img {
   width: 100%;
 }
@@ -364,11 +390,13 @@ input, textarea {
   cursor: pointer;
   padding: 1rem;
 }
+
 .go-back svg {
   font-size: 1.5rem;
 }
+
 .go-back:hover {
-  color: #A05344;
+  color: #a05344;
 }
 
 .scroll-up-button {
@@ -377,7 +405,7 @@ input, textarea {
   position: fixed;
   bottom: 1rem;
   right: 1rem;
-  color: #EFE1D1;
+  color: #efe1d1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -386,10 +414,11 @@ input, textarea {
   opacity: 0;
   transition: all 0.3s ease-in-out;
   background-color: #734046;
-  border: #A78295 solid 1px;
+  border: #a78295 solid 1px;
 }
+
 .scroll-up-button:hover {
-  background-color: #A05344;
+  background-color: #a05344;
 }
 
 .scroll-up-button.visible {
@@ -397,18 +426,18 @@ input, textarea {
 }
 
 .link-light a {
-  color: #EFE1D1;
+  color: #efe1d1;
   text-decoration: underline;
-  margin-left: 5px;
   transition: 0.3s;
 }
+
 .link-light a:hover {
   color: #6f93c4;
 }
 
 .color-changing-text {
   font-weight: 600;
-  background: linear-gradient(to right, #ffc06c, #A05344);
+  background: linear-gradient(to right, #ffc06c, #a05344);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -420,11 +449,13 @@ input, textarea {
     transform: rotate(360deg);
   }
 }
+
 @keyframes spin-image {
   100% {
     transform: rotate(-360deg);
   }
 }
+
 @media (min-width: 600px) {
   .nav {
     width: 100%;
@@ -436,17 +467,21 @@ input, textarea {
   .project-about {
     grid-template-columns: 200px 1fr;
   }
+  .project-about p {
+    padding: 10px 0 0;
+  }
   .mobile-version-album {
     grid-template-columns: 1fr 1fr;
   }
   .active {
     font-weight: 600;
-    background: linear-gradient(to right, #ffc06c, #A05344);
+    background: linear-gradient(to right, #ffc06c, #a05344);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
   }
 }
+
 @media (min-width: 864px) {
   .f-lg-row {
     flex-direction: row;
@@ -458,6 +493,7 @@ input, textarea {
     grid-template-columns: 300px 1fr;
   }
 }
+
 @media (min-width: 1450px) {
   .portfolio {
     max-width: 100vw;
@@ -468,26 +504,26 @@ input, textarea {
     grid-template-columns: 200px 1fr;
   }
 }
+
 @media (prefers-color-scheme: dark) {
   .btn-send {
-    background: linear-gradient(to right, #ffc06c, #A05344);
+    background: linear-gradient(to right, #ffc06c, #a05344);
   }
   .color-changing-text {
-    background: linear-gradient(to right, #ffc06c, #A05344);
+    background: linear-gradient(to right, #ffc06c, #a05344);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     display: inline-block;
   }
 }
+
 @media (prefers-color-scheme: dark) and (min-width: 600px) {
   .active {
     font-weight: 600;
-    background: linear-gradient(to right, #ffc06c, #A05344);
+    background: linear-gradient(to right, #ffc06c, #a05344);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
   }
 }
-
-/*# sourceMappingURL=App.css.map */

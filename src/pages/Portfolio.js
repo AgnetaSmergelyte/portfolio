@@ -90,7 +90,7 @@ const Portfolio = () => {
                             <img className="project-img" src={regFoodScreen} alt="Regfood screen"/>
                         </a>
                         <p className="link-light">
-                            The RegFood Website Clone showcases my ability to replicate designs effectively. Initially conceived as my first HTML/CSS assignment, JavaScript was later integrated to enhance functionality. The clone is meticulously crafted, replete with intricate details and captivating animations. 
+                            The RegFood website's landing page clone showcases my ability to replicate designs effectively. Initially conceived as my first HTML/CSS assignment, JavaScript was later integrated to enhance functionality. The clone is meticulously crafted, replete with intricate details and captivating animations. 
                             To view the original website, <a href="https://preview.themeforest.net/item/ragfood-restaurent-html-template/full_screen_preview/45638604?_ga=2.86321304.168419542.1700460621-1389662263.1700460621" alt="RegFood design website">click here</a>.
                         </p>
                     </div>
@@ -151,7 +151,7 @@ const Portfolio = () => {
                             <img className="project-img" src={quotesScreen} alt="Random Quote Machine screen"/>
                         </a>
                         <p>
-                            Explore insightful quotes effortlessly with our Random Quote Machine. With just a click, access a variety of quotes sourced from the Quotes API, specifically filtered by the keyword "best". This React-based Single Page Application offers simple navigation and easy sharing of quotes on Twitter. Dive into inspiration and share thought-provoking quotes with ease.
+                            Explore insightful quotes effortlessly with Random Quote Machine. With just a click, access a variety of quotes sourced from the Quotes API, specifically filtered by the keyword "best". This React-based Single Page Application offers simple navigation and easy sharing of quotes on Twitter. Dive into inspiration and share thought-provoking quotes with ease.
                         </p>
                     </div>
                     <Technologies techArray={["js", "react", "sass"]}/>
@@ -171,7 +171,7 @@ const Portfolio = () => {
                             <img className="project-img" src={calculatorScreen} alt="Calculator screen"/>
                         </a>
                         <p>
-                            Simplify your calculations with our straightforward JavaScript calculator. This Single Page Application, powered by React, offers a seamless experience for basic arithmetic operations. Get your math done quickly and efficiently with intuitive calculator interface.
+                            Simplify your calculations with the straightforward JavaScript calculator. This Single Page Application, powered by React, offers a seamless experience for basic arithmetic operations. Get your math done quickly and efficiently with intuitive calculator interface.
                         </p>
                     </div>
                     <Technologies techArray={["js", "react", "sass"]}/>

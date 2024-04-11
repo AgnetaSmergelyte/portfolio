@@ -138,7 +138,7 @@ textarea {
 .info {
   h1 {
     font-size: 2rem;
-    overflow: hidden;    
+    overflow: hidden;
     white-space: nowrap;
     width: 0;
     animation: typing 1s steps(15, end) forwards;
@@ -489,10 +489,10 @@ textarea {
 }
 
 @keyframes typing {
-  from { 
+  from {
     width: 0;
   }
-  to { 
+  to {
     width: 100%;
   }
 }
@@ -502,7 +502,7 @@ textarea {
     h1 {
       font-size: 3rem;
     }
-  
+
     h2 {
       font-size: 2rem;
     }

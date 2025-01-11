@@ -255,6 +255,10 @@ textarea {
   text-decoration: none;
 }
 
+.project-entry li {
+  margin-left: 2rem;
+}
+
 .project-about {
   padding: 1rem 0;
   display: grid;

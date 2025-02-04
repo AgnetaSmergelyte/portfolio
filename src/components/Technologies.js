@@ -3,6 +3,7 @@ import reactLogo from "../images/technologies/React.svg.svg";
 import reactRouterLogo from "../images/technologies/react-router.svg";
 import reduxLogo from "../images/technologies/redux.svg";
 import nodeLogo from "../images/technologies/Nodejs.svg";
+import sqlLogo from "../images/technologies/sql.svg";
 import mongoDbLogo from "../images/technologies/Mongodb.svg.svg";
 import htmlLogo from "../images/technologies/HTML5.svg.svg";
 import cssLogo from "../images/technologies/CSS3.svg.svg";
@@ -17,9 +18,7 @@ import gitLogo from "../images/technologies/git.svg";
 import npmLogo from "../images/technologies/npm.svg";
 import tailwindLogo from "../images/technologies/tailwind.svg";
 import angularLogo from "../images/technologies/angular.svg";
-import nextLogo from "../images/technologies/next.svg";
 import angularMaterialLogo from "../images/technologies/material.svg";
-import mySqlLogo from "../images/technologies/mysql.svg";
 
 const technologies = {
   react: { name: "React", logo: reactLogo },
@@ -40,9 +39,8 @@ const technologies = {
   npm: { name: "npm", logo: npmLogo },
   tailwind: { name: "Tailwind CSS", logo: tailwindLogo },
   angular: { name: "Angular", logo: angularLogo },
-  next: { name: "Next.js", logo: nextLogo },
   material: { name: "Angular Material", logo: angularMaterialLogo },
-  mysql: { name: "MySQL", logo: mySqlLogo },
+  sql: { name: "SQL", logo: sqlLogo },
 };
 
 const Technologies = ({ techArray }) => {

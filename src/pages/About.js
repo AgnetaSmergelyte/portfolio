@@ -14,7 +14,7 @@ const About = () => {
       <div className="about-text">
         <h1 className="text-center">About Me</h1>
         <p>
-          I'm a web developer with a Master's in Mathematics, bringing a blend of analytical thinking and creative problem-solving to every project. Over the past year, I've gained solid experience in Angular, TypeScript, Node.js, and SQL, building and deploying web applications. I'm always eager to learn and grow, and I actively explore new technologies through personal React projects, constantly pushing my skills and creativity.
+          As a full-stack web developer with a Master's in Mathematics, I bring a unique blend of analytical thinking and creative problem-solving to every project.  Over the past year, I've gained solid experience building warehouse management systems (WMS) using Angular, TypeScript, Node.js and SQL.  I'm passionate about continuous learning and actively explore new technologies through personal React projects, constantly expanding my skillset and pushing creative boundaries.
         </p>
       </div>
       <h2>Traits</h2>
@@ -44,13 +44,12 @@ const About = () => {
           "react",
           "reactRouter",
           "redux",
-          "next",
           "node",
           "npm",
           "express",
           "socket",
+          "sql",
           "mongoDb",
-          "mysql",
           "git",
           "bootstrap",
           "tailwind",

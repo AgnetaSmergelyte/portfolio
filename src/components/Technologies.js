@@ -45,7 +45,7 @@ const technologies = {
 
 const Technologies = ({ techArray }) => {
   return (
-    <div className="d-flex f-wrap gap-1 j-center">
+    <div className="d-flex f-wrap gap-1 j-center icons-wrapper">
       {techArray.map((x, i) => (
         <div key={i} className="tech-icon">
           <img src={technologies[x]["logo"]} alt={technologies[x]["name"]} />

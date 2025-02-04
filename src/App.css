@@ -198,6 +198,10 @@ textarea {
   border-radius: 5px;
 }
 
+.icons-wrapper {
+  max-width: 90vw;
+}
+
 .tech-icon {
   position: relative;
 }

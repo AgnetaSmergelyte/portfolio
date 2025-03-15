@@ -73,7 +73,7 @@ const Portfolio = () => {
               />
             </a>
             <p>
-              This is my go-to tool for staying organized! The Online To-Do List is a task management application built with Angular. It allows users to effortlessly add, edit, and delete tasks, while marking them as complete for easy tracking. This Single Page Application provides a user-friendly interface to help you enhance your productivity.
+              Manage your tasks online! This Progressive Web App (PWA), built with Angular, is accessible in your browser and installable on your phone. Add, edit, delete, and complete tasks with ease using this user-friendly Single Page Application.
             </p>
           </div>
           <Technologies techArray={["ts", "angular", "css"]} />

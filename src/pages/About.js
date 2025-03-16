@@ -14,11 +14,7 @@ const About = () => {
       <div className="about-text">
         <h1 className="text-center">About Me</h1>
         <p>
-          I'm a dedicated web developer, passionate about creating high-quality, innovative solutions. 
-          My background in mathematics has given me a strong foundation for analytical thinking, which I apply to every project. 
-          For the past year, I worked on building warehouse management systems (WMS), using Angular, TypeScript, Node.js and SQL to develop and maintain features that support efficient warehousing and logistics operations.
-          I'm committed to continuous growth, and you'll often find me exploring new technologies and working with React.js in my personal projects. 
-          I believe in building robust, innovative solutions, and I'm always eager to learn and improve.
+          Hey there! I'm a web developer who genuinely loves crafting solid, functional solutions. My brain's a bit wired for problem-solving, thanks to a background in math – it's like a superpower for tackling complex code. For the past year, I dove deep into building warehouse management systems (WMS). Think Angular, TypeScript, Node.js, and a whole lot of SQL. It was a blast figuring out how to make those systems tick. When I'm not working, you'll probably find me tinkering with React.js, always keen to explore what's next. I'm all about building things that work well and learning along the way.
         </p>
       </div>
       <h2>Traits</h2>
